@@ -1218,8 +1218,8 @@
           "None of the above"
         ],
         "correct_answer": "3, 3, 4"
-      }
-   {
+      },
+    {
         "question": "Which of the following is not a valid HTML5 input type?",
         "options": [
           "date",
