@@ -1219,5 +1219,895 @@
         ],
         "correct_answer": "3, 3, 4"
       }
-  
+   {
+        "question": "Which of the following is not a valid HTML5 input type?",
+        "options": [
+          "date",
+          "color",
+          "range",
+          "checkboxes"
+        ],
+        "correctAnswer": "d"
+      },
+      {
+        "question": "Which CSS property is used to create a drop shadow effect?",
+        "options": [
+          "text-shadow",
+          "box-shadow",
+          "background-shadow",
+          "border-shadow"
+        ],
+        "correctAnswer": "b"
+      },
+      {
+        "question": "Which CSS property is used to create a drop shadow effect?",
+        "options": [
+          "text-shadow",
+          "box-shadow",
+          "background-shadow",
+          "border-shadow"
+        ],
+        "correctAnswer": "b"
+      },
+      {
+        "question": "What is the correct syntax for a JavaScript if statement?",
+        "options": [
+          "if (x === 0) { }",
+          "if x === 0 { }",
+          "if x = 0 { }",
+          "if x == 0 { }"
+        ],
+        "correctAnswer": "a"
+      },
+      {
+        "question": "What is the correct way to create a function in JavaScript?",
+        "options": [
+          "function myFunction() { }",
+          "myFunction() { }",
+          "var myFunction = function() { }",
+          "myFunction = () => { }"
+        ],
+        "correctAnswer": "a"
+      },
+      {
+        "question": "Which of the following is not a valid CSS display property value?",
+        "options": [
+          "block",
+          "inline",
+          "grid",
+          "column"
+        ],
+        "correctAnswer": "d"
+      },
+      {
+        "question": "What is the correct way to declare a variable in JavaScript?",
+        "options": [
+          "var myVariable;",
+          "myVariable = 'value';",
+          "var myVariable = 'value';",
+          "All of the above"
+        ],
+        "correctAnswer": "c"
+      },
+      {
+        "question": "Which HTML tag is used to define a table row?",
+        "options": [
+          "<td>",
+          "<th>",
+          "<tr>",
+          "<table>"
+        ],
+        "correctAnswer": "c"
+      },
+      {
+        "question": "What is the correct way to add an element to an array in JavaScript?",
+        "options": [
+          "array.push('element');",
+          "array.add('element');",
+          "array.insert('element');",
+          "array.concat('element');"
+        ],
+        "correctAnswer": "a"
+      },
+      {
+        "question": "Which HTML tag is used to define a list item?",
+        "options": [
+          "<li>",
+          "<ul>",
+          "<ol>",
+          "<dl>"
+        ],
+        "correctAnswer": "a"
+      },
+      {
+        "question": "Which CSS property is used to set the background color of an element?",
+        "options": [
+          "color",
+          "background",
+          "background-color",
+          "text-color"
+        ],
+        "correctAnswer": "c"
+      },
+      {
+        "question": "What is the correct syntax for a JavaScript switch statement?",
+        "options": [
+          "switch (x) { case 1: break; default: break; }",
+          "switch { x: case 1: break; default: break; }",
+          "if (x === 1) { } else { }",
+          "while (x === 1) { }"
+        ],
+        "correctAnswer": "a"
+      },
+      {
+        "question": "Which of the following is not a valid HTML5 media element?",
+        "options": [
+          "<audio>",
+          "<video>",
+          "<image>",
+          "<source>"
+        ],
+        "correctAnswer": "c"
+      },
+      {
+        "question": "What is the correct way to apply a CSS style to a specific HTML element with a specific class?",
+        "options": [
+          "element .class { }",
+          ".class element { }",
+          "element.class { }",
+          ".class { element: }"
+        ],
+        "correctAnswer": "c"
+      },
+      {
+        "question": "What is the correct way to declare a constant in JavaScript?",
+        "options": [
+          "const myConstant = 'value';",
+          "myConstant = 'value';",
+          "var myConstant = 'value';",
+          "let myConstant = 'value';"
+        ],
+        "correctAnswer": "a"
+      },
+      {
+        "question": "Which of the following is not a valid HTML form element?",
+        "options": [
+          "<form>",
+          "<input>",
+          "<button>",
+          "<label>"
+        ],
+        "correctAnswer": "d"
+      },
+      {
+        "question": "What is the correct way to add an event listener to an HTML element in JavaScript?",
+        "options": [
+          "element.addEventListener('click', myFunction);",
+          "element.click(myFunction);",
+          "element.click = myFunction;",
+          "myFunction.addEventListener('click', element);"
+        ],
+        "correctAnswer": "a"
+      },
+      {
+        "question": "Which HTML attribute specifies the alternate text for an image?",
+        "options": [
+          "src",
+          "alt",
+          "title",
+          "href"
+        ],
+        "correctAnswer": "b"
+      },
+      {
+        "question": "Which CSS property is used to specify the size of the font?",
+        "options": [
+          "text-size",
+          "font-size",
+          "size",
+          "text-font-size"
+        ],
+        "correctAnswer": "b"
+      },
+      {
+        "question": "Which of the following is not a valid JavaScript data type?",
+        "options": [
+          "string",
+          "integer",
+          "boolean",
+          "null"
+        ],
+        "correctAnswer": "b"
+      },
+      {
+        "question": "Which HTML tag is used to define a hyperlink?",
+        "options": [
+          "<a>",
+          "<p>",
+          "<h1>",
+          "<div>"
+        ],
+        "correctAnswer": "a"
+      },
+      {
+        "question": "Which CSS property is used to add a border to an element?",
+        "options": [
+          "border-style",
+          "border",
+          "border-width",
+          "border-color"
+        ],
+        "correctAnswer": "b"
+      },
+      {
+        "question": "What is the correct way to declare a function in JavaScript?",
+        "options": [
+          "function myFunction() { }",
+          "myFunction = function() { }",
+          "const myFunction = function() { }",
+          "let myFunction() { }"
+        ],
+        "correctAnswer": "a"
+      },
+      {
+        "question": "Which HTML tag is used to define a table row?",
+        "options": [
+          "<tr>",
+          "<td>",
+          "<th>",
+          "<table>"
+        ],
+        "correctAnswer": "a"
+      },
+      {
+        "question": "What is the correct way to remove an HTML element in JavaScript?",
+        "options": [
+          "element.parentNode.removeChild(element);",
+          "element.remove();",
+          "element.removeChild(element.parentNode);",
+          "parentNode.remove(element);"
+        ],
+        "correctAnswer": "b"
+      },
+      {
+        "question": "Which of the following is not a valid CSS position property value?",
+        "options": [
+          "static",
+          "absolute",
+          "sticky",
+          "inline"
+        ],
+        "correctAnswer": "d"
+      },
+      {
+        "question": "What is the correct way to access the first element of an array in JavaScript?",
+        "options": [
+          "myArray[0]",
+          "myArray[1]",
+          "myArray.first()",
+          "myArray.shift()"
+        ],
+        "correctAnswer": "a"
+      },
+      {
+        "question": "Which HTML attribute is used to specify the text direction?",
+        "options": [
+          "lang",
+          "dir",
+          "text-dir",
+          "align"
+        ],
+        "correctAnswer": "b"
+      },
+      {
+        "question": "Which CSS property is used to align text within an element?",
+        "options": [
+          "text-align",
+          "align",
+          "text-aligning",
+          "align-text"
+        ],
+        "correctAnswer": "a"
+      },
+      {
+        "question": "What is the result of the following JavaScript expression: 10 % 3?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "correctAnswer": "a"
+      },
+      {
+        "question": "Which HTML tag is used to define a list item?",
+        "options": [
+          "<li>",
+          "<ul>",
+          "<ol>",
+          "<dl>"
+        ],
+        "correctAnswer": "a"
+      },
+      {
+        "question": "Which CSS property is used to add padding to an element?",
+        "options": [
+          "padding",
+          "padding-size",
+          "size",
+          "padding-width"
+        ],
+        "correctAnswer": "a"
+      },
+      {
+        "question": "What is the correct syntax to declare a variable in JavaScript?",
+        "options": [
+          "let myVariable;",
+          "var myVariable;",
+          "const myVariable;",
+          "All of the above"
+        ],
+        "correctAnswer": "d"
+      },
+      {
+        "question": "Which HTML tag is used to define a header?",
+        "options": [
+          "<header>",
+          "<h1>",
+          "<head>",
+          "<section>"
+        ],
+        "correctAnswer": "a"
+      },
+      {
+        "question": "What is the correct way to add a new class to an element in JavaScript?",
+        "options": [
+          "element.setAttribute('class', 'new-class');",
+          "element.className = 'new-class';",
+          "element.class = 'new-class';",
+          "element.addClass('new-class');"
+        ],
+        "correctAnswer": "b"
+      },
+      {
+        "question": "Which of the following is not a valid CSS display property value?",
+        "options": [
+          "inline",
+          "block",
+          "visible",
+          "flex"
+        ],
+        "correctAnswer": "c"
+      },
+      {
+        "question": "Which HTML tag is used to create a hyperlink?",
+        "options": [
+          "<a>",
+          "<h1>",
+          "<p>",
+          "<img>"
+        ],
+        "correctAnswer": "a"
+      },
+      {
+        "question": "What is the purpose of the CSS property \"z-index\"?",
+        "options": [
+          "To set the opacity of an element",
+          "To set the position of an element",
+          "To specify the order of overlapping elements",
+          "To add a border to an element"
+        ],
+        "correctAnswer": "c"
+      },
+      {
+        "question": "What is the result of the following JavaScript expression: \"5\" + 2?",
+        "options": [
+          "7",
+          "52",
+          "25",
+          "NaN"
+        ],
+        "correctAnswer": "b"
+      },
+      {
+        "question": "Which HTML tag is used to define a table row?",
+        "options": [
+          "<tr>",
+          "<td>",
+          "<th>",
+          "<table>"
+        ],
+        "correctAnswer": "a"
+      },
+      {
+        "question": "Which CSS property is used to change the font size of text?",
+        "options": [
+          "font-size",
+          "text-size",
+          "font-style",
+          "font-weight"
+        ],
+        "correctAnswer": "a"
+      },
+      {
+        "question": "What is the correct syntax to add an event listener to an HTML element in JavaScript?",
+        "options": [
+          "element.addEventListener('click', myFunction);",
+          "element.click(myFunction);",
+          "element.onClick = myFunction;",
+          "All of the above"
+        ],
+        "correctAnswer": "a"
+      },
+      {
+        "question": "Which HTML tag is used to define a form?",
+        "options": [
+          "<form>",
+          "<input>",
+          "<button>",
+          "<label>"
+        ],
+        "correctAnswer": "a"
+      },
+      {
+        "question": "What is the correct way to select an element by its ID using JavaScript?",
+        "options": [
+          "document.getElementById('myId');",
+          "document.getElementByName('myId');",
+          "document.getElementsByClass('myId');",
+          "All of the above"
+        ],
+        "correctAnswer": "a"
+      },
+      {
+        "question": "Which of the following is not a valid value for the CSS \"position\" property?",
+        "options": [
+          "static",
+          "fixed",
+          "sticky",
+          "flow"
+        ],
+        "correctAnswer": "d"
+      },
+      {
+        "question": "Which HTML tag is used to define a paragraph?",
+        "options": [
+          "<p>",
+          "<h1>",
+          "<div>",
+          "<span>"
+        ],
+        "correctAnswer": "a"
+      },
+      {
+        "question": "Which CSS property is used to change the background color of an element?",
+        "options": [
+          "color",
+          "background",
+          "background-color",
+          "border"
+        ],
+        "correctAnswer": "c"
+      },
+      {
+        "question": "What is the result of the following JavaScript expression: 2 + 2 + \"2\"?",
+        "options": [
+          "6",
+          "22",
+          "24",
+          "NaN"
+        ],
+        "correctAnswer": "b"
+      },
+      {
+        "question": "Which HTML tag is used to define a header for a section or article?",
+        "options": [    "<header>",    "<h1>",    "<nav>",    "<section>"  ],
+        "correctAnswer": "a"
+      },
+      {
+        "question": "Which CSS property is used to change the text color of an element?",
+        "options": [
+          "color",
+          "text-color",
+          "background-color",
+          "font-color"
+        ],
+        "correctAnswer": "a"
+      },
+      {
+        "question": "What is the correct way to create a new array in JavaScript?",
+        "options": [
+          "var myArray = [];",
+          "var myArray = new Array();",
+          "Both of the above",
+          "None of the above"
+        ],
+        "correctAnswer": "c"
+      },
+      {
+        "question": "Which HTML tag is used to define a list item?",
+        "options": [
+          "<li>",
+          "<ul>",
+          "<ol>",
+          "<dl>"
+        ],
+        "correctAnswer": "a"
+      },
+      {
+        "question": "What is the correct way to select all elements with a certain class using JavaScript?",
+        "options": [
+          "document.getElementsByClassName('myClass');",
+          "document.getElementById('myClass');",
+          "document.getElementsByClass('myClass');",
+          "All of the above"
+        ],
+        "correctAnswer": "a"
+      },
+      {
+        "question": "Which of the following is not a valid value for the CSS \"display\" property?",
+        "options": [
+          "block",
+          "inline",
+          "flex",
+          "center"
+        ],
+        "correctAnswer": "d"
+      },
+      {
+        "question": "What does CSS stand for?",
+        "options": [
+          "Cascading Style Sheets",
+          "Computer Style Sheets",
+          "Cascading Sheets System",
+          "Computer Sheets System"
+        ],
+        "correctAnswer": "a"
+      },
+      {
+        "question": "What is the correct way to add an external CSS file to an HTML document?",
+        "options": [
+          "<link rel=\"stylesheet\" href=\"styles.css\">",
+          "<style src=\"styles.css\"></style>",
+          "<link src=\"styles.css\" rel=\"stylesheet\">",
+          "<style rel=\"stylesheet\" href=\"styles.css\"></style>"
+        ],
+        "correctAnswer": "a"
+      },
+      {
+        "question": "Which HTML tag is used to define a hyperlink?",
+        "options": [
+          "<link>",
+          "<a>",
+          "<href>",
+          "<url>"
+        ],
+        "correctAnswer": "b"
+      },
+      {
+        "question": "What is the result of the following JavaScript expression: \"5\" - 2?",
+        "options": [
+          "3",
+          "4",
+          "5",
+          "NaN"
+        ],
+        "correctAnswer": "a"
+      },
+      {
+        "question": "Which CSS property is used to set the height of an element?",
+        "options": [
+          "width",
+          "height",
+          "size",
+          "dimensions"
+        ],
+        "correctAnswer": "b"
+      },
+      {
+        "question": "What is the correct syntax to write a JavaScript function?",
+        "options": [
+          "function = myFunction() {}",
+          "function myFunction() {}",
+          "myFunction = function() {}",
+          "All of the above"
+        ],
+        "correctAnswer": "b"
+      },
+      {
+        "question": "Which HTML tag is used to define a table header?",
+        "options": [    "<thead>",    "<th>",    "<tr>",    "<td>"  ],
+        "correctAnswer": "b"
+      },
+      {
+        "question": "What is the correct way to select the first element in a list using JavaScript?",
+        "options": [
+          "document.querySelector('li:first-child');",
+          "document.querySelector('li:last-child');",
+          "document.querySelector('li:nth-child(1)');",
+          "document.querySelector('li:nth-child(2)');"
+        ],
+        "correctAnswer": "c"
+      },
+      {
+        "question": "What is the purpose of the \"alt\" attribute in an HTML image tag?",
+        "options": [
+          "To specify the URL of the image",
+          "To specify the width of the image",
+          "To provide alternative text if the image cannot be displayed",
+          "To add a border to the image"
+        ],
+        "correctAnswer": "c"
+      },
+      {
+        "question": "What is the correct way to create a new HTML5 document?",
+        "options": [
+          "<!DOCTYPE HTML>",
+          "<!DOCTYPE html5>",
+          "<!DOCTYPE html>",
+          "<!DOCTYPE HTML5>"
+        ],
+        "correctAnswer": "c"
+      },
+      {
+        "question": "Which CSS property is used to create rounded corners?",
+        "options": [
+          "border-radius",
+          "border-style",
+          "border-color",
+          "border-width"
+        ],
+        "correctAnswer": "a"
+      },
+      {
+        "question": "What is the purpose of the \"disabled\" attribute in an HTML form element?",
+        "options": [
+          "To specify the default value of the form element",
+          "To disable user interaction with the form element",
+          "To specify a label for the form element",
+          "To group related form elements together"
+        ],
+        "correctAnswer": "b"
+      },
+      {
+        "question": "What is the correct syntax to add an element to the end of an array in JavaScript?",
+        "options": [
+          "array.push(element)",
+          "array.add(element)",
+          "array.end(element)",
+          "array.append(element)"
+        ],
+        "correctAnswer": "a"
+      },
+      {
+        "question": "Which HTML tag is used to create a numbered list?",
+        "options": [
+          "<ol>",
+          "<ul>",
+          "<li>",
+          "<dl>"
+        ],
+        "correctAnswer": "a"
+      },
+      {
+        "question": "What is the correct way to declare a variable in JavaScript?",
+        "options": [
+          "var myVariable;",
+          "let myVariable;",
+          "const myVariable;",
+          "All of the above"
+        ],
+        "correctAnswer": "d"
+      },
+      {
+        "question": "Which CSS property is used to change the font size of text?",
+        "options": [
+          "font-style",
+          "font-variant",
+          "font-size",
+          "font-weight"
+        ],
+        "correctAnswer": "c"
+      },
+      {
+        "question": "What is the result of the following JavaScript expression: \"10\" + 5?",
+        "options": [
+          "15",
+          "105",
+          "NaN",
+          "undefined"
+        ],
+        "correctAnswer": "b"
+      },
+      {
+        "question": "Which HTML tag is used to create a line break?",
+        "options": [
+          "<br>",
+          "<hr>",
+          "<p>",
+          "<div>"
+        ],
+        "correctAnswer": "a"
+      },
+      {
+        "question": "Which HTML tag is used to create an image?",
+        "options": [
+          "<img>",
+          "<a>",
+          "<div>",
+          "<p>"
+        ],
+        "correctAnswer": "a"
+      },
+      {
+        "question": "What is the purpose of the \"target\" attribute in an HTML link?",
+        "options": [
+          "To specify the URL of the link",
+          "To specify the display style of the link",
+          "To open the link in a new window or tab",
+          "To apply a class to the link"
+        ],
+        "correctAnswer": "c"
+      },
+      {
+        "question": "Which CSS property is used to change the color of text?",
+        "options": [
+          "text-style",
+          "text-variant",
+          "color",
+          "text-decoration"
+        ],
+        "correctAnswer": "c"
+      },
+      {
+        "question": "What is the correct way to declare a function in JavaScript?",
+        "options": [
+          "function myFunction() {}",
+          "var myFunction = function() {}",
+          "myFunction() {}",
+          "All of the above"
+        ],
+        "correctAnswer": "a"
+      },
+      {
+        "question": "Which HTML tag is used to create a table row?",
+        "options": [
+          "<tr>",
+          "<th>",
+          "<td>",
+          "<table>"
+        ],
+        "correctAnswer": "a"
+      },
+      {
+        "question": "What is the result of the following JavaScript expression: 10 == \"10\"?",
+        "options": [
+          "true",
+          "false",
+          "NaN",
+          "undefined"
+        ],
+        "correctAnswer": "a"
+      },
+      {
+        "question": "What is the purpose of the \"display\" property in CSS?",
+        "options": [
+          "To specify the position of the element",
+          "To create a border around the element",
+          "To control the visibility of the element",
+          "To apply a style to the text within the element"
+        ],
+        "correctAnswer": "c"
+      },
+      {
+        "question": "Which JavaScript method is used to add a new element to an array?",
+        "options": [
+          "push()",
+          "pop()",
+          "shift()",
+          "unshift()"
+        ],
+        "correctAnswer": "a"
+      },
+      {
+        "question": "What is the purpose of the \"src\" attribute in an HTML image tag?",
+        "options": [
+          "To specify the width of the image",
+          "To specify the height of the image",
+          "To apply a style to the image",
+          "To specify the URL of the image"
+        ],
+        "correctAnswer": "d"
+      },
+      {
+        "question": "Which CSS property is used to set the background image of an element?",
+        "options": [
+          "background-image",
+          "background-color",
+          "background-style",
+          "None of the above"
+        ],
+        "correctAnswer": "a"
+      },
+      {
+        "question": "What is the purpose of the \"alt\" attribute in an HTML image tag?",
+        "options": [
+          "To specify the width of the image",
+          "To specify the height of the image",
+          "To describe the image for accessibility",
+          "To apply a style to the image"
+        ],
+        "correctAnswer": "c"
+      },
+      {
+        "question": "Which CSS property is used to set the background color of an element?",
+        "options": [
+          "background-image",
+          "background-color",
+          "background-style",
+          "None of the above"
+        ],
+        "correctAnswer": "b"
+      },
+      {
+        "question": "What is the purpose of the \"innerHTML\" property in JavaScript?",
+        "options": [
+          "To change the text content of an element",
+          "To change the CSS style of an element",
+          "To change the attributes of an element",
+          "To add a new element to the document"
+        ],
+        "correctAnswer": "a"
+      },
+      {
+        "question": "Which HTML tag is used to create an unordered list?",
+        "options": [
+          "<ol>",
+          "<li>",
+          "<ul>",
+          "<dl>"
+        ],
+        "correctAnswer": "c"
+      },
+      {
+        "question": "What is the purpose of the \"float\" property in CSS?",
+        "options": [
+          "To control the size of an element",
+          "To control the position of an element",
+          "To control the color of an element",
+          "To control the font of an element"
+        ],
+        "correctAnswer": "b"
+      },
+      {
+        "question": "Which JavaScript method is used to remove the last element from an array?",
+        "options": [
+          "push()",
+          "pop()",
+          "shift()",
+          "unshift()"
+        ],
+        "correctAnswer": "b"
+      },
+      {
+        "question": "What is the purpose of the \"target\" attribute in an HTML link tag?",
+        "options": [
+          "To specify the location of the linked document",
+          "To specify the type of link",
+          "To specify the text of the link",
+          "To specify where the linked document will be opened"
+        ],
+        "correctAnswer": "d"
+      },
+      {
+        "question": "Which CSS property is used to set the text color of an element?",
+        "options": [
+          "color",
+          "text-color",
+          "background-color",
+          "None of the above"
+        ],
+        "correctAnswer": "a"
+      }
+       
   ]
