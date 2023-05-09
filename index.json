@@ -1,2114 +1,2122 @@
 [
     {
-          "question": "What is the output of the following code snippet? \n\n int x = 3; \n int y = x++; \n cout << x << y; ",
-          "answer_choices": [
+        "question": "What is the output of the following code snippet? \n\n int x = 3; \n int y = x++; \n cout << x << y; ",
+        "answer_choices": [
             "33",
             "42",
             "24",
             "13"
-          ],
-          "correct_answer": "33"
-        },
-        {
-          "question": "Which of the following is NOT a valid C++ data type? ",
-          "answer_choices": [
+        ],
+        "correctAnswer": "33"
+    },
+    {
+        "question": "Which of the following is NOT a valid C++ data type? ",
+        "answer_choices": [
             "int",
             "bool",
             "char",
             "string"
-          ],
-          "correct_answer": "string"
-        },
-        {
-          "question": "What is the output of the following code snippet? \n\n int i = 5; \n cout << (i > 3 ? \"yes\" : \"no\");",
-          "answer_choices": [
+        ],
+        "correctAnswer": "string"
+    },
+    {
+        "question": "What is the output of the following code snippet? \n\n int i = 5; \n cout << (i > 3 ? \"yes\" : \"no\");",
+        "answer_choices": [
             "yes",
             "no",
             "true",
             "false"
-          ],
-          "correct_answer": "yes"
-        },
-        {
-          "question": "What is the output of the following code snippet? \n\n int arr[] = {1, 2, 3}; \n cout << *(arr+1);",
-          "answer_choices": [
+        ],
+        "correctAnswer": "yes"
+    },
+    {
+        "question": "What is the output of the following code snippet? \n\n int arr[] = {1, 2, 3}; \n cout << *(arr+1);",
+        "answer_choices": [
             "1",
             "2",
             "3",
             "Compiler error"
-          ],
-          "correct_answer": "2"
-        },
-        {
-          "question": "What is the output of the following code snippet? \n\n int a = 3, b = 5; \n int c = a ^ b; \n cout << c;",
-          "answer_choices": [
+        ],
+        "correctAnswer": "2"
+    },
+    {
+        "question": "What is the output of the following code snippet? \n\n int a = 3, b = 5; \n int c = a ^ b; \n cout << c;",
+        "answer_choices": [
             "0",
             "2",
             "3",
             "8"
-          ],
-          "correct_answer": "6"
-        },
-     {
-          "question": "Which of the following is NOT a fundamental data type in C++?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "6"
+    },
+    {
+        "question": "Which of the following is NOT a fundamental data type in C++?",
+        "answer_choices": [
             "int",
             "char",
             "float",
             "list"
-          ],
-          "correct_answer": "list"
-        },
-        {
-          "question": "What is the output of the following code snippet? \n\n string s1 = \"hello\"; \n string s2 = \"world\"; \n cout << s1 + s2;",
-          "answer_choices": [
+        ],
+        "correctAnswer": "list"
+    },
+    {
+        "question": "What is the output of the following code snippet? \n\n string s1 = \"hello\"; \n string s2 = \"world\"; \n cout << s1 + s2;",
+        "answer_choices": [
             "helloworld",
             "hello world",
             "worldhello",
             "Compiler error"
-          ],
-          "correct_answer": "helloworld"
-        },
-        {
-          "question": "Which of the following statements is true about function overloading in C++?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "helloworld"
+    },
+    {
+        "question": "Which of the following statements is true about function overloading in C++?",
+        "answer_choices": [
             "Function overloading is not allowed in C++.",
             "Function overloading allows a function to have multiple definitions with the same name.",
             "Function overloading requires that the return types of the functions be different.",
             "Function overloading requires that the number of parameters be the same for all functions with the same name."
-          ],
-          "correct_answer": "Function overloading allows a function to have multiple definitions with the same name."
-        },
-        {
-          "question": "What is the output of the following code snippet? \n\n int x = 5; \n cout << x / 2;",
-          "answer_choices": [
+        ],
+        "correctAnswer": "Function overloading allows a function to have multiple definitions with the same name."
+    },
+    {
+        "question": "What is the output of the following code snippet? \n\n int x = 5; \n cout << x / 2;",
+        "answer_choices": [
             "2.5",
             "2",
             "2.0",
             "Compiler error"
-          ],
-          "correct_answer": "2"
-        },
-        {
-          "question": "What is the output of the following code snippet? \n\n int arr[] = {1, 2, 3, 4}; \n cout << sizeof(arr);",
-          "answer_choices": [
+        ],
+        "correctAnswer": "2"
+    },
+    {
+        "question": "What is the output of the following code snippet? \n\n int arr[] = {1, 2, 3, 4}; \n cout << sizeof(arr);",
+        "answer_choices": [
             "2",
             "4",
             "8",
             "16"
-          ],
-          "correct_answer": "16"
-        },
-        {
-          "question": "Which of the following is a correct way to declare and define a member function of a class in C++?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "16"
+    },
+    {
+        "question": "Which of the following is a correct way to declare and define a member function of a class in C++?",
+        "answer_choices": [
             "void MyClass::myFunction() {}",
             "void myFunction() {}",
             "void MyClass.myFunction() {}",
             "void myFunction(MyClass) {}"
-          ],
-          "correct_answer": "void MyClass::myFunction() {}"
-        },
-        {
-          "question": "What is the output of the following code snippet? \n\n int x = 5; \n int y = 2; \n cout << x % y;",
-          "answer_choices": [
+        ],
+        "correctAnswer": "void MyClass::myFunction() {}"
+    },
+    {
+        "question": "What is the output of the following code snippet? \n\n int x = 5; \n int y = 2; \n cout << x % y;",
+        "answer_choices": [
             "2.5",
             "2",
             "1",
             "0.5"
-          ],
-          "correct_answer": "1"
-        },
-        {
-          "question": "Which of the following statements is true about references in C++?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "1"
+    },
+    {
+        "question": "Which of the following statements is true about references in C++?",
+        "answer_choices": [
             "A reference is a pointer to an object in C++.",
             "A reference must be initialized when it is declared.",
             "A reference can be null in C++.",
             "A reference cannot be used to modify the value of an object."
-          ],
-          "correct_answer": "A reference must be initialized when it is declared."
-        },
+        ],
+        "correctAnswer": "A reference must be initialized when it is declared."
+    },
     {
-          "question": "Which of the following operators is used to access a member of a structure or union in C++?",
-          "answer_choices": [
+        "question": "Which of the following operators is used to access a member of a structure or union in C++?",
+        "answer_choices": [
             "->",
             "*",
             ".",
             ":"
-          ],
-          "correct_answer": "->"
-        },
-        {
-          "question": "What is the output of the following code snippet? \n\n int x = 5; \n int y = 2; \n x += y; \n cout << x;",
-          "answer_choices": [
+        ],
+        "correctAnswer": "->"
+    },
+    {
+        "question": "What is the output of the following code snippet? \n\n int x = 5; \n int y = 2; \n x += y; \n cout << x;",
+        "answer_choices": [
             "2",
             "5",
             "7",
             "10"
-          ],
-          "correct_answer": "7"
-        },
-        {
-          "question": "Which of the following statements is true about the const keyword in C++?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "7"
+    },
+    {
+        "question": "Which of the following statements is true about the const keyword in C++?",
+        "answer_choices": [
             "The const keyword is used to declare variables that cannot be modified.",
             "The const keyword is used to declare variables that can only be modified inside a function.",
             "The const keyword is used to declare variables that can only be modified by the compiler.",
             "The const keyword is not a part of C++ syntax."
-          ],
-          "correct_answer": "The const keyword is used to declare variables that cannot be modified."
-        },
-        {
-          "question": "What is the output of the following code snippet? \n\n int arr[] = {1, 2, 3, 4}; \n cout << arr[3];",
-          "answer_choices": [
+        ],
+        "correctAnswer": "The const keyword is used to declare variables that cannot be modified."
+    },
+    {
+        "question": "What is the output of the following code snippet? \n\n int arr[] = {1, 2, 3, 4}; \n cout << arr[3];",
+        "answer_choices": [
             "1",
             "2",
             "3",
             "4"
-          ],
-          "correct_answer": "4"
-        },
-        {
-          "question": "Which of the following is the correct way to declare a pointer to an integer in C++?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "4"
+    },
+    {
+        "question": "Which of the following is the correct way to declare a pointer to an integer in C++?",
+        "answer_choices": [
             "int *ptr;",
             "ptr int;",
             "int ptr;",
             "pointer int;"
-          ],
-          "correct_answer": "int *ptr;"
-        },
-        {
-          "question": "What is the output of the following code snippet? \n\n int x = 5; \n int y = 2; \n cout << (x > y) ? \"true\" : \"false\";",
-          "answer_choices": [
+        ],
+        "correctAnswer": "int *ptr;"
+    },
+    {
+        "question": "What is the output of the following code snippet? \n\n int x = 5; \n int y = 2; \n cout << (x > y) ? \"true\" : \"false\";",
+        "answer_choices": [
             "true",
             "false",
             "Compiler error",
             "Runtime error"
-          ],
-          "correct_answer": "true"
-        },
-        {
-          "question": "Which of the following is a correct way to declare a constructor for a class in C++?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "true"
+    },
+    {
+        "question": "Which of the following is a correct way to declare a constructor for a class in C++?",
+        "answer_choices": [
             "MyClass() {}",
             "void MyClass() {}",
             "constructor MyClass() {}",
             "MyClass constructor() {}"
-          ],
-          "correct_answer": "MyClass() {}"
-        },
-        {
-          "question": "What is the output of the following code snippet? \n\n int x = 10; \n for (int i = 0; i < x; i++) { \n   if (i == 5) { \n     continue; \n   } \n   cout << i << \" \"; \n}",
-          "answer_choices": [
+        ],
+        "correctAnswer": "MyClass() {}"
+    },
+    {
+        "question": "What is the output of the following code snippet? \n\n int x = 10; \n for (int i = 0; i < x; i++) { \n   if (i == 5) { \n     continue; \n   } \n   cout << i << \" \"; \n}",
+        "answer_choices": [
             "0 1 2 3 4 6 7 8 9",
             "0 1 2 3 4 5 6 7 8 9",
             "1 2 3 4 6 7 8 9",
             "1 2 3 4 5 6 7 8 9"
-          ],
-          "correct_answer": "0 1"
+        ],
+        "correctAnswer": "0 1"
     },
     {
-          "question": "What is the correct way to dynamically allocate memory for a single integer in C++?",
-          "answer_choices": [
+        "question": "What is the correct way to dynamically allocate memory for a single integer in C++?",
+        "answer_choices": [
             "int *ptr = new int;",
             "int ptr = new int();",
             "int *ptr = new();",
             "int *ptr = new int[];"
-          ],
-          "correct_answer": "int *ptr = new int;"
-        },
-        {
-          "question": "What is the output of the following code snippet? \n\n int x = 5; \n int y = 2; \n cout << (x < y) ? \"true\" : \"false\";",
-          "answer_choices": [
+        ],
+        "correctAnswer": "int *ptr = new int;"
+    },
+    {
+        "question": "What is the output of the following code snippet? \n\n int x = 5; \n int y = 2; \n cout << (x < y) ? \"true\" : \"false\";",
+        "answer_choices": [
             "true",
             "false",
             "Compiler error",
             "Runtime error"
-          ],
-          "correct_answer": "false"
-        },
-        {
-          "question": "Which of the following is not a valid C++ variable name?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "false"
+    },
+    {
+        "question": "Which of the following is not a valid C++ variable name?",
+        "answer_choices": [
             "my_variable",
             "MyVariable",
             "my-variable",
             "myVariable123"
-          ],
-          "correct_answer": "my-variable"
-        },
-        {
-          "question": "What is the output of the following code snippet? \n\n int x = 5; \n int y = 2; \n cout << (x == y) ? \"true\" : \"false\";",
-          "answer_choices": [
+        ],
+        "correctAnswer": "my-variable"
+    },
+    {
+        "question": "What is the output of the following code snippet? \n\n int x = 5; \n int y = 2; \n cout << (x == y) ? \"true\" : \"false\";",
+        "answer_choices": [
             "true",
             "false",
             "Compiler error",
             "Runtime error"
-          ],
-          "correct_answer": "false"
-        },
-        {
-          "question": "What is the output of the following code snippet? \n\n int x = 10; \n while (x > 0) { \n   cout << x << \" \"; \n   x /= 2; \n }",
-          "answer_choices": [
+        ],
+        "correctAnswer": "false"
+    },
+    {
+        "question": "What is the output of the following code snippet? \n\n int x = 10; \n while (x > 0) { \n   cout << x << \" \"; \n   x /= 2; \n }",
+        "answer_choices": [
             "10 5 2 1",
             "10 8 4 2 1",
             "10 9 8 7 6 5 4 3 2 1",
             "10 6 3 1"
-          ],
-          "correct_answer": "10 5 2 1"
-        },
-        {
-          "question": "What is the output of the following code snippet? \n\n int x = 5; \n int y = 2; \n cout << (x >= y) ? \"true\" : \"false\";",
-          "answer_choices": [
+        ],
+        "correctAnswer": "10 5 2 1"
+    },
+    {
+        "question": "What is the output of the following code snippet? \n\n int x = 5; \n int y = 2; \n cout << (x >= y) ? \"true\" : \"false\";",
+        "answer_choices": [
             "true",
             "false",
             "Compiler error",
             "Runtime error"
-          ],
-          "correct_answer": "true"
-        },
-        {
-          "question": "What is the correct way to declare a function that takes two integer parameters and returns their sum in C++?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "true"
+    },
+    {
+        "question": "What is the correct way to declare a function that takes two integer parameters and returns their sum in C++?",
+        "answer_choices": [
             "int sum(int x, int y) { return x + y; }",
             "void sum(int x, int y) { return x + y; }",
             "sum(int x, int y) { return x + y; }",
             "int sum(int x) { return x + 1; }"
-          ],
-          "correct_answer": "int sum(int x, int y) { return x + y; }"
-        },
+        ],
+        "correctAnswer": "int sum(int x, int y) { return x + y; }"
+    },
     {
-          "question": "What is the correct way to define a constant in C++?",
-          "answer_choices": [
+        "question": "What is the correct way to define a constant in C++?",
+        "answer_choices": [
             "const int CONSTANT = 10;",
             "int CONSTANT = const 10;",
             "int CONSTANT = 10;",
             "int = const CONSTANT 10;"
-          ],
-          "correct_answer": "const int CONSTANT = 10;"
-        },
-        {
-          "question": "What is the output of the following code snippet? \n\n int x = 5; \n int y = 2; \n cout << (x != y) ? \"true\" : \"false\";",
-          "answer_choices": [
+        ],
+        "correctAnswer": "const int CONSTANT = 10;"
+    },
+    {
+        "question": "What is the output of the following code snippet? \n\n int x = 5; \n int y = 2; \n cout << (x != y) ? \"true\" : \"false\";",
+        "answer_choices": [
             "true",
             "false",
             "Compiler error",
             "Runtime error"
-          ],
-          "correct_answer": "true"
-        },
-        {
-          "question": "Which of the following is an example of a bitwise operator in C++?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "true"
+    },
+    {
+        "question": "Which of the following is an example of a bitwise operator in C++?",
+        "answer_choices": [
             "*",
             "/",
             "%",
             "&"
-          ],
-          "correct_answer": "&"
-        },
-        {
-          "question": "What is the output of the following code snippet? \n\n int arr[] = {1, 2, 3, 4}; \n cout << arr;",
-          "answer_choices": [
+        ],
+        "correctAnswer": "&"
+    },
+    {
+        "question": "What is the output of the following code snippet? \n\n int arr[] = {1, 2, 3, 4}; \n cout << arr;",
+        "answer_choices": [
             "1",
             "2",
             "3",
             "Compiler error"
-          ],
-          "correct_answer": "Compiler error"
-        },
-        {
-          "question": "What is the output of the following code snippet? \n\n int x = 10; \n for (int i = 0; i < 5; i++) { \n   x -= 2; \n } \n cout << x;",
-          "answer_choices": [
+        ],
+        "correctAnswer": "Compiler error"
+    },
+    {
+        "question": "What is the output of the following code snippet? \n\n int x = 10; \n for (int i = 0; i < 5; i++) { \n   x -= 2; \n } \n cout << x;",
+        "answer_choices": [
             "2",
             "4",
             "6",
             "8"
-          ],
-          "correct_answer": "0"
-        },
-        {
-          "question": "What is the correct way to define a class named \"Rectangle\" with private member variables for width and height in C++?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "0"
+    },
+    {
+        "question": "What is the correct way to define a class named \"Rectangle\" with private member variables for width and height in C++?",
+        "answer_choices": [
             "class Rectangle { \n private: \n   int width; \n   int height; \n };",
             "class Rectangle { \n public: \n   int width; \n   int height; \n };",
             "class Rectangle { \n private: \n   width; \n   height; \n };",
             "class Rectangle { \n width; \n height; \n };"
-          ],
-          "correct_answer": "class Rectangle { \n private: \n   int width; \n   int height; \n };"
-        },
-        {
-          "question": "What is the output of the following code snippet? \n\n int x = 5; \n int y = 2; \n cout << (x > y) ? \"true\" : \"false\";",
-          "answer_choices": [
+        ],
+        "correctAnswer": "class Rectangle { \n private: \n   int width; \n   int height; \n };"
+    },
+    {
+        "question": "What is the output of the following code snippet? \n\n int x = 5; \n int y = 2; \n cout << (x > y) ? \"true\" : \"false\";",
+        "answer_choices": [
             "true",
             "false",
             "Compiler error",
             "Runtime error"
-          ],
-          "correct_answer": "true"
-        },
-        {
-          "question": "What is the output of the following code snippet? \n\n int arr[] = {1, 2, 3, 4}; \n int *ptr = &arr[2]; \n cout << *ptr;",
-          "answer_choices": [
+        ],
+        "correctAnswer": "true"
+    },
+    {
+        "question": "What is the output of the following code snippet? \n\n int arr[] = {1, 2, 3, 4}; \n int *ptr = &arr[2]; \n cout << *ptr;",
+        "answer_choices": [
             "1",
             "2",
             "3",
             "4"
-          ],
-          "correct_answer": "3"
-        },
+        ],
+        "correctAnswer": "3"
+    },
     {
-          "question": "What is the correct way to declare a function named \"sum\" that takes two integers as arguments and returns their sum in C++?",
-          "answer_choices": [
+        "question": "What is the correct way to declare a function named \"sum\" that takes two integers as arguments and returns their sum in C++?",
+        "answer_choices": [
             "sum(int x, y) { \n   return x + y; \n }",
             "int sum(x, y) { \n   return x + y; \n }",
             "int sum(int x, int y) { \n   return x + y; \n }",
             "void sum(int x, int y) { \n   cout << x + y; \n }"
-          ],
-          "correct_answer": "int sum(int x, int y) { \n   return x + y; \n }"
-        },
-        {
-          "question": "What is the output of the following code snippet? \n\n int x = 5; \n int y = 2; \n cout << (x >= y) ? \"true\" : \"false\";",
-          "answer_choices": [
+        ],
+        "correctAnswer": "int sum(int x, int y) { \n   return x + y; \n }"
+    },
+    {
+        "question": "What is the output of the following code snippet? \n\n int x = 5; \n int y = 2; \n cout << (x >= y) ? \"true\" : \"false\";",
+        "answer_choices": [
             "true",
             "false",
             "Compiler error",
             "Runtime error"
-          ],
-          "correct_answer": "true"
-        },
-        {
-          "question": "Which of the following is the correct syntax to declare a pointer variable in C++?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "true"
+    },
+    {
+        "question": "Which of the following is the correct syntax to declare a pointer variable in C++?",
+        "answer_choices": [
             "int *ptr = &x;",
             "int ptr = &x;",
             "int *ptr = x;",
             "int ptr = *x;"
-          ],
-          "correct_answer": "int *ptr = &x;"
-        },
-        {
-          "question": "What is the output of the following code snippet? \n\n int x = 10; \n int y = 5; \n cout << x / y;",
-          "answer_choices": [
+        ],
+        "correctAnswer": "int *ptr = &x;"
+    },
+    {
+        "question": "What is the output of the following code snippet? \n\n int x = 10; \n int y = 5; \n cout << x / y;",
+        "answer_choices": [
             "2",
             "3",
             "5",
             "Compiler error"
-          ],
-          "correct_answer": "2"
-        },
-        {
-          "question": "What is the output of the following code snippet? \n\n int arr[] = {1, 2, 3, 4}; \n int *ptr = arr; \n cout << *ptr;",
-          "answer_choices": [
+        ],
+        "correctAnswer": "2"
+    },
+    {
+        "question": "What is the output of the following code snippet? \n\n int arr[] = {1, 2, 3, 4}; \n int *ptr = arr; \n cout << *ptr;",
+        "answer_choices": [
             "1",
             "2",
             "3",
             "4"
-          ],
-          "correct_answer": "1"
-        },
-        {
-          "question": "What is the correct way to define a default constructor for a class named \"Person\" with private member variables for name and age in C++?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "1"
+    },
+    {
+        "question": "What is the correct way to define a default constructor for a class named \"Person\" with private member variables for name and age in C++?",
+        "answer_choices": [
             "Person() { \n   name = \"\"; \n   age = 0; \n }",
             "Person() { \n   private: \n   name = \"\"; \n   age = 0; \n }",
             "Person() { \n   this->name = \"\"; \n   this->age = 0; \n }",
             "Person() { \n   private: \n   this->name = \"\"; \n   this->age = 0; \n }"
-          ],
-          "correct_answer": "Person() { \n   this->name = \"\"; \n   this->age = 0; \n }"
-        },
+        ],
+        "correctAnswer": "Person() { \n   this->name = \"\"; \n   this->age = 0; \n }"
+    },
     {
-          "question": "What is the output of the following code snippet? \n\n int arr[] = {1, 2, 3}; \n int *ptr = &arr[1]; \n cout << *(ptr + 1);",
-          "answer_choices": [
+        "question": "What is the output of the following code snippet? \n\n int arr[] = {1, 2, 3}; \n int *ptr = &arr[1]; \n cout << *(ptr + 1);",
+        "answer_choices": [
             "1",
             "2",
             "3",
             "Compiler error"
-          ],
-          "correct_answer": "3"
-        },
-        {
-          "question": "What is the correct way to declare a constant integer variable named \"PI\" with the value of 3.14 in C++?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "3"
+    },
+    {
+        "question": "What is the correct way to declare a constant integer variable named \"PI\" with the value of 3.14 in C++?",
+        "answer_choices": [
             "const int PI = 3.14;",
             "int PI = const 3.14;",
             "int const PI = 3.14;",
             "None of the above"
-          ],
-          "correct_answer": "int const PI = 3.14;"
-        },
-        {
-          "question": "What is the output of the following code snippet? \n\n int x = 10; \n int y = 5; \n cout << x % y;",
-          "answer_choices": [
+        ],
+        "correctAnswer": "int const PI = 3.14;"
+    },
+    {
+        "question": "What is the output of the following code snippet? \n\n int x = 10; \n int y = 5; \n cout << x % y;",
+        "answer_choices": [
             "0",
             "1",
             "2",
             "Compiler error"
-          ],
-          "correct_answer": "0"
-        },
-        {
-          "question": "What is the correct way to declare a multidimensional array named \"matrix\" with 3 rows and 4 columns in C++?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "0"
+    },
+    {
+        "question": "What is the correct way to declare a multidimensional array named \"matrix\" with 3 rows and 4 columns in C++?",
+        "answer_choices": [
             "int matrix[3][4];",
             "int matrix[4][3];",
             "int matrix[12];",
             "int *matrix = new int[3][4];"
-          ],
-          "correct_answer": "int matrix[3][4];"
-        },
-        {
-          "question": "What is the output of the following code snippet? \n\n int x = 5; \n int y = 2; \n cout << (x > y) ? \"true\" : \"false\";",
-          "answer_choices": [
+        ],
+        "correctAnswer": "int matrix[3][4];"
+    },
+    {
+        "question": "What is the output of the following code snippet? \n\n int x = 5; \n int y = 2; \n cout << (x > y) ? \"true\" : \"false\";",
+        "answer_choices": [
             "true",
             "false",
             "Compiler error",
             "Runtime error"
-          ],
-          "correct_answer": "true"
-        },
-        {
-          "question": "What is the correct way to declare a virtual function named \"print\" that takes no arguments and returns void in C++?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "true"
+    },
+    {
+        "question": "What is the correct way to declare a virtual function named \"print\" that takes no arguments and returns void in C++?",
+        "answer_choices": [
             "void virtual print() = 0;",
             "virtual void print() = 0;",
             "void print() virtual = 0;",
             "print() virtual void = 0;"
-          ],
-          "correct_answer": "virtual void print() = 0;"
-        },
-        {
-          "question": "What is the output of the following code snippet? \n\n int arr[] = {1, 2, 3, 4}; \n int *ptr = &arr[0]; \n cout << *(ptr + 3);",
-          "answer_choices": [
+        ],
+        "correctAnswer": "virtual void print() = 0;"
+    },
+    {
+        "question": "What is the output of the following code snippet? \n\n int arr[] = {1, 2, 3, 4}; \n int *ptr = &arr[0]; \n cout << *(ptr + 3);",
+        "answer_choices": [
             "1",
             "2",
             "3",
             "4"
-          ],
-          "correct_answer": "4"
-        },
-     {
-          "question": "What is the output of the following code snippet? \n\n int x = 5; \n int y = x++; \n cout << x << \" \" << y;",
-          "answer_choices": [
+        ],
+        "correctAnswer": "4"
+    },
+    {
+        "question": "What is the output of the following code snippet? \n\n int x = 5; \n int y = x++; \n cout << x << \" \" << y;",
+        "answer_choices": [
             "5 6",
             "6 5",
             "Compiler error",
             "Runtime error"
-          ],
-          "correct_answer": "6 5"
-        },
-        {
-          "question": "What is the correct way to declare a reference to an integer variable named \"x\" in C++?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "6 5"
+    },
+    {
+        "question": "What is the correct way to declare a reference to an integer variable named \"x\" in C++?",
+        "answer_choices": [
             "int ref x;",
             "int &ref x;",
             "int *x;",
             "None of the above"
-          ],
-          "correct_answer": "int &ref x;"
-        },
-        {
-          "question": "What is the output of the following code snippet? \n\n int arr[] = {1, 2, 3}; \n cout << arr[3];",
-          "answer_choices": [
+        ],
+        "correctAnswer": "int &ref x;"
+    },
+    {
+        "question": "What is the output of the following code snippet? \n\n int arr[] = {1, 2, 3}; \n cout << arr[3];",
+        "answer_choices": [
             "0",
             "1",
             "2",
             "Compiler error"
-          ],
-          "correct_answer": "Compiler error"
-        },
-        {
-          "question": "What is the correct way to declare a constant pointer to an integer variable named \"ptr\" in C++?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "Compiler error"
+    },
+    {
+        "question": "What is the correct way to declare a constant pointer to an integer variable named \"ptr\" in C++?",
+        "answer_choices": [
             "int *const ptr;",
             "const int *ptr;",
             "const int *const ptr;",
             "None of the above"
-          ],
-          "correct_answer": "int *const ptr;"
-        },
-        {
-          "question": "What is the output of the following code snippet? \n\n int arr[] = {1, 2, 3}; \n int *ptr = arr; \n cout << *++ptr;",
-          "answer_choices": [
+        ],
+        "correctAnswer": "int *const ptr;"
+    },
+    {
+        "question": "What is the output of the following code snippet? \n\n int arr[] = {1, 2, 3}; \n int *ptr = arr; \n cout << *++ptr;",
+        "answer_choices": [
             "1",
             "2",
             "3",
             "Compiler error"
-          ],
-          "correct_answer": "2"
-        },
-        {
-          "question": "What is the correct way to declare a destructor for a class named \"Person\" with private member variables for name and age in C++?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "2"
+    },
+    {
+        "question": "What is the correct way to declare a destructor for a class named \"Person\" with private member variables for name and age in C++?",
+        "answer_choices": [
             "Person::~Person() { \n   delete name; \n }",
             "Person::~Person() { \n   delete age; \n }",
             "~Person() { \n   delete name; \n   delete age; \n }",
             "None of the above"
-          ],
-          "correct_answer": "~Person() { \n   delete name; \n   delete age; \n }"
-        },
-        {
-          "question": "What is the output of the following code snippet? \n\n int arr[] = {1, 2, 3}; \n int *ptr = arr + 1; \n cout << *ptr;",
-          "answer_choices": [
+        ],
+        "correctAnswer": "~Person() { \n   delete name; \n   delete age; \n }"
+    },
+    {
+        "question": "What is the output of the following code snippet? \n\n int arr[] = {1, 2, 3}; \n int *ptr = arr + 1; \n cout << *ptr;",
+        "answer_choices": [
             "1",
             "2",
             "3",
             "Compiler error"
-          ],
-          "correct_answer": "2"
-        },
-     {
-          "question": "What is the output of the following code snippet? \n\n int arr[] = {1, 2, 3}; \n int *ptr = &arr[1]; \n cout << *(ptr - 1);",
-          "answer_choices": [
+        ],
+        "correctAnswer": "2"
+    },
+    {
+        "question": "What is the output of the following code snippet? \n\n int arr[] = {1, 2, 3}; \n int *ptr = &arr[1]; \n cout << *(ptr - 1);",
+        "answer_choices": [
             "1",
             "2",
             "3",
             "Compiler error"
-          ],
-          "correct_answer": "1"
-        },
-        {
-          "question": "What is the correct way to declare a static member variable named \"count\" for a class named \"Person\" in C++?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "1"
+    },
+    {
+        "question": "What is the correct way to declare a static member variable named \"count\" for a class named \"Person\" in C++?",
+        "answer_choices": [
             "Person::count;",
             "static int Person::count;",
             "int Person::count;",
             "None of the above"
-          ],
-          "correct_answer": "int Person::count;"
-        },
-        {
-          "question": "What is the output of the following code snippet? \n\n int arr[] = {1, 2, 3}; \n int *ptr = arr; \n cout << ++*ptr;",
-          "answer_choices": [
+        ],
+        "correctAnswer": "int Person::count;"
+    },
+    {
+        "question": "What is the output of the following code snippet? \n\n int arr[] = {1, 2, 3}; \n int *ptr = arr; \n cout << ++*ptr;",
+        "answer_choices": [
             "1",
             "2",
             "3",
             "Compiler error"
-          ],
-          "correct_answer": "2"
-        },
-        {
-          "question": "What is the correct way to define a copy constructor for a class named \"Person\" with private member variables for name and age in C++?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "2"
+    },
+    {
+        "question": "What is the correct way to define a copy constructor for a class named \"Person\" with private member variables for name and age in C++?",
+        "answer_choices": [
             "Person(Person &p) { \n   name = p.name; \n   age = p.age; \n }",
             "Person(Person &p) { \n   private: \n   name = p.name; \n   age = p.age; \n }",
             "Person(Person &p) : name(p.name), age(p.age) {}",
             "None of the above"
-          ],
-          "correct_answer": "Person(Person &p) : name(p.name), age(p.age) {}"
-        },
-        {
-          "question": "What is the output of the following code snippet? \n\n int x = 10; \n if (x > 5) \n     cout << \"Hello\"; \n else \n     cout << \"World\";",
-          "answer_choices": [
+        ],
+        "correctAnswer": "Person(Person &p) : name(p.name), age(p.age) {}"
+    },
+    {
+        "question": "What is the output of the following code snippet? \n\n int x = 10; \n if (x > 5) \n     cout << \"Hello\"; \n else \n     cout << \"World\";",
+        "answer_choices": [
             "Hello",
             "World",
             "Compilation error",
             "Runtime error"
-          ],
-          "correct_answer": "Hello"
-        },
-        {
-          "question": "What is the correct way to declare a template function named \"swap\" that swaps two variables of any type in C++?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "Hello"
+    },
+    {
+        "question": "What is the correct way to declare a template function named \"swap\" that swaps two variables of any type in C++?",
+        "answer_choices": [
             "void swap(T x, T y) { \n   T temp = x; \n   x = y; \n   y = temp; \n }",
             "template<typename T> \n void swap(T &x, T &y) { \n   T temp = x; \n   x = y; \n   y = temp; \n }",
             "template<> \n void swap(T &x, T &y) { \n   T temp = x; \n   x = y; \n   y = temp; \n }",
             "None of the above"
-          ],
-          "correct_answer": "template<typename T> \n void swap(T &x, T &y) { \n   T temp = x; \n   x = y; \n   y = temp; \n }"
-        },
-     {
-          "question": "What is the output of the following code snippet? \n\n int x = 5, y = 10; \n cout << (x == y) << endl; \n cout << (x != y) << endl; \n cout << (x > y) << endl; \n cout << (x < y) << endl;",
-          "answer_choices": [
+        ],
+        "correctAnswer": "template<typename T> \n void swap(T &x, T &y) { \n   T temp = x; \n   x = y; \n   y = temp; \n }"
+    },
+    {
+        "question": "What is the output of the following code snippet? \n\n int x = 5, y = 10; \n cout << (x == y) << endl; \n cout << (x != y) << endl; \n cout << (x > y) << endl; \n cout << (x < y) << endl;",
+        "answer_choices": [
             "0101",
             "1010",
             "1111",
             "0000"
-          ],
-          "correct_answer": "0101"
-        },
-        {
-          "question": "What is the correct way to declare a pure virtual function named \"display\" in an abstract base class named \"Shape\" in C++?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "0101"
+    },
+    {
+        "question": "What is the correct way to declare a pure virtual function named \"display\" in an abstract base class named \"Shape\" in C++?",
+        "answer_choices": [
             "virtual void Shape::display() = 0;",
             "virtual void Shape::display() { }",
             "void Shape::display() = 0;",
             "None of the above"
-          ],
-          "correct_answer": "virtual void Shape::display() = 0;"
-        },
-        {
-          "question": "What is the output of the following code snippet? \n\n int x = 5; \n cout << (x << 1);",
-          "answer_choices": [
+        ],
+        "correctAnswer": "virtual void Shape::display() = 0;"
+    },
+    {
+        "question": "What is the output of the following code snippet? \n\n int x = 5; \n cout << (x << 1);",
+        "answer_choices": [
             "5",
             "10",
             "20",
             "Compiler error"
-          ],
-          "correct_answer": "10"
-        },
-        {
-          "question": "What is the correct way to declare a constant pointer to an integer named \"ptr\" in C++?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "10"
+    },
+    {
+        "question": "What is the correct way to declare a constant pointer to an integer named \"ptr\" in C++?",
+        "answer_choices": [
             "int const *ptr;",
             "const int *ptr;",
             "int *const ptr;",
             "None of the above"
-          ],
-          "correct_answer": "const int *ptr;"
-        },
-        {
-          "question": "What is the output of the following code snippet? \n\n int x = 5; \n int &y = x; \n y++; \n cout << x;",
-          "answer_choices": [
+        ],
+        "correctAnswer": "const int *ptr;"
+    },
+    {
+        "question": "What is the output of the following code snippet? \n\n int x = 5; \n int &y = x; \n y++; \n cout << x;",
+        "answer_choices": [
             "4",
             "5",
             "6",
             "Compiler error"
-          ],
-          "correct_answer": "6"
-        },
-        {
-          "question": "What is the correct way to declare a friend function named \"display\" for a class named \"Person\" in C++?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "6"
+    },
+    {
+        "question": "What is the correct way to declare a friend function named \"display\" for a class named \"Person\" in C++?",
+        "answer_choices": [
             "friend void display(Person &p);",
             "void Person::display(Person &p);",
             "friend void Person::display();",
             "None of the above"
-          ],
-          "correct_answer": "friend void display(Person &p);"
-        },
-        {
-          "question": "What is the output of the following code snippet? \n\n int arr[] = {1, 2, 3}; \n int *ptr = arr + 1; \n cout << *(++ptr);",
-          "answer_choices": [
+        ],
+        "correctAnswer": "friend void display(Person &p);"
+    },
+    {
+        "question": "What is the output of the following code snippet? \n\n int arr[] = {1, 2, 3}; \n int *ptr = arr + 1; \n cout << *(++ptr);",
+        "answer_choices": [
             "1",
             "2",
             "3",
             "Compiler error"
-          ],
-          "correct_answer": "3"
-        },
-        {
-          "question": "What is the correct way to declare a function named \"sum\" that takes two integer arguments and returns their sum in C++?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "3"
+    },
+    {
+        "question": "What is the correct way to declare a function named \"sum\" that takes two integer arguments and returns their sum in C++?",
+        "answer_choices": [
             "int sum(x, y) { return x + y; }",
             "int sum(int x, int y) { return x + y; }",
             "void sum(int x, int y) { cout << x + y; }",
             "None of the above"
-          ],
-          "correct_answer": "int sum"
+        ],
+        "correctAnswer": "int sum"
     },
     {
-          "question": "What is the output of the following code snippet? \n\n int x = 5, y = 10; \n int *ptr = &x; \n *ptr += y; \n cout << x;",
-          "answer_choices": [
+        "question": "What is the output of the following code snippet? \n\n int x = 5, y = 10; \n int *ptr = &x; \n *ptr += y; \n cout << x;",
+        "answer_choices": [
             "5",
             "10",
             "15",
             "20"
-          ],
-          "correct_answer": "15"
-        },
-        {
-          "question": "What is the correct way to declare a static member variable named \"count\" for a class named \"Shape\" in C++?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "15"
+    },
+    {
+        "question": "What is the correct way to declare a static member variable named \"count\" for a class named \"Shape\" in C++?",
+        "answer_choices": [
             "int Shape::count;",
             "static int Shape::count;",
             "static int count;",
             "None of the above"
-          ],
-          "correct_answer": "static int Shape::count;"
-        },
-        {
-          "question": "What is the output of the following code snippet? \n\n int arr[3][3] = {{1,2,3}, {4,5,6}, {7,8,9}}; \n cout << arr[1][2];",
-          "answer_choices": [
+        ],
+        "correctAnswer": "static int Shape::count;"
+    },
+    {
+        "question": "What is the output of the following code snippet? \n\n int arr[3][3] = {{1,2,3}, {4,5,6}, {7,8,9}}; \n cout << arr[1][2];",
+        "answer_choices": [
             "1",
             "2",
             "6",
             "8"
-          ],
-          "correct_answer": "6"
-        },
-        {
-          "question": "What is the correct way to declare a derived class named \"Circle\" that inherits from a base class named \"Shape\" in C++?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "6"
+    },
+    {
+        "question": "What is the correct way to declare a derived class named \"Circle\" that inherits from a base class named \"Shape\" in C++?",
+        "answer_choices": [
             "class Circle : public Shape { };",
             "class Circle :: Shape { };",
             "class Circle : Shape { };",
             "None of the above"
-          ],
-          "correct_answer": "class Circle : public Shape { };"
-        },
-        {
-          "question": "What is the output of the following code snippet? \n\n int x = 5; \n int *ptr = &x; \n cout << ptr;",
-          "answer_choices": [
+        ],
+        "correctAnswer": "class Circle : public Shape { };"
+    },
+    {
+        "question": "What is the output of the following code snippet? \n\n int x = 5; \n int *ptr = &x; \n cout << ptr;",
+        "answer_choices": [
             "5",
             "The memory address of x",
             "Compiler error",
             "None of the above"
-          ],
-          "correct_answer": "The memory address of x"
-        },
-        {
-          "question": "What is the correct way to declare a default constructor for a class named \"Person\" that sets the name and age to empty strings and zero, respectively, in C++?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "The memory address of x"
+    },
+    {
+        "question": "What is the correct way to declare a default constructor for a class named \"Person\" that sets the name and age to empty strings and zero, respectively, in C++?",
+        "answer_choices": [
             "Person() { name = \"\"; age = 0; }",
             "Person() : name(\"\"), age(0) { }",
             "Person() : { name = \"\"; age = 0; }",
             "None of the above"
-          ],
-          "correct_answer": "Person() : name(\"\"), age(0) { }"
-        },
-        {
-          "question": "What is the output of the following code snippet? \n\n int x = 5; \n int *ptr = &x; \n cout << ++*ptr;",
-          "answer_choices": [
+        ],
+        "correctAnswer": "Person() : name(\"\"), age(0) { }"
+    },
+    {
+        "question": "What is the output of the following code snippet? \n\n int x = 5; \n int *ptr = &x; \n cout << ++*ptr;",
+        "answer_choices": [
             "4",
             "5",
             "6",
             "Compiler error"
-          ],
-          "correct_answer": "6"
-        },
-        {
-          "question": "What is the correct way to declare a destructor for a class named \"Person\" in C++?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "6"
+    },
+    {
+        "question": "What is the correct way to declare a destructor for a class named \"Person\" in C++?",
+        "answer_choices": [
             "Person::~Person() { }",
             "void Person::destructor() { }",
             "~Person() { }",
             "None of the above"
-          ],
-          "correct_answer": "~Person() { }"
-        },
-     {
-          "question": "What is the output of the following code snippet? \n\n int x = 5; \n int &ref = x; \n ref++; \n cout << x;",
-          "answer_choices": [
+        ],
+        "correctAnswer": "~Person() { }"
+    },
+    {
+        "question": "What is the output of the following code snippet? \n\n int x = 5; \n int &ref = x; \n ref++; \n cout << x;",
+        "answer_choices": [
             "4",
             "5",
             "6",
             "Compiler error"
-          ],
-          "correct_answer": "6"
-        },
-        {
-          "question": "What is the correct way to declare a virtual function named \"draw\" for a base class named \"Shape\" in C++?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "6"
+    },
+    {
+        "question": "What is the correct way to declare a virtual function named \"draw\" for a base class named \"Shape\" in C++?",
+        "answer_choices": [
             "void Shape::draw() { }",
             "virtual void Shape::draw() = 0;",
             "virtual void Shape::draw();",
             "None of the above"
-          ],
-          "correct_answer": "virtual void Shape::draw() = 0;"
-        },
-        {
-          "question": "What is the output of the following code snippet? \n\n int arr[] = {1, 2, 3, 4, 5}; \n int *ptr = arr + 2; \n cout << *(ptr+1);",
-          "answer_choices": [
+        ],
+        "correctAnswer": "virtual void Shape::draw() = 0;"
+    },
+    {
+        "question": "What is the output of the following code snippet? \n\n int arr[] = {1, 2, 3, 4, 5}; \n int *ptr = arr + 2; \n cout << *(ptr+1);",
+        "answer_choices": [
             "1",
             "2",
             "3",
             "4"
-          ],
-          "correct_answer": "4"
-        },
-        {
-          "question": "What is the correct way to declare a pure virtual function named \"draw\" for a base class named \"Shape\" in C++?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "4"
+    },
+    {
+        "question": "What is the correct way to declare a pure virtual function named \"draw\" for a base class named \"Shape\" in C++?",
+        "answer_choices": [
             "virtual void Shape::draw() = 0;",
             "void Shape::draw() { }",
             "virtual void Shape::draw();",
             "None of the above"
-          ],
-          "correct_answer": "virtual void Shape::draw() = 0;"
-        },
-        {
-          "question": "What is the output of the following code snippet? \n\n int arr[] = {1, 2, 3, 4, 5}; \n int *ptr = arr; \n cout << *(ptr++);",
-          "answer_choices": [
+        ],
+        "correctAnswer": "virtual void Shape::draw() = 0;"
+    },
+    {
+        "question": "What is the output of the following code snippet? \n\n int arr[] = {1, 2, 3, 4, 5}; \n int *ptr = arr; \n cout << *(ptr++);",
+        "answer_choices": [
             "1",
             "2",
             "3",
             "4"
-          ],
-          "correct_answer": "1"
-        },
-        {
-          "question": "What is the correct way to declare a constant member function named \"getName\" that returns the name of a class named \"Person\" in C++?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "1"
+    },
+    {
+        "question": "What is the correct way to declare a constant member function named \"getName\" that returns the name of a class named \"Person\" in C++?",
+        "answer_choices": [
             "const string Person::getName() { return name; }",
             "string const Person::getName() { return name; }",
             "string Person::getName() const { return name; }",
             "None of the above"
-          ],
-          "correct_answer": "string Person::getName() const { return name; }"
-        },
-        {
-          "question": "What is the output of the following code snippet? \n\n int x = 5, y = 10; \n int *const ptr = &x; \n *ptr = y; \n cout << x;",
-          "answer_choices": [
+        ],
+        "correctAnswer": "string Person::getName() const { return name; }"
+    },
+    {
+        "question": "What is the output of the following code snippet? \n\n int x = 5, y = 10; \n int *const ptr = &x; \n *ptr = y; \n cout << x;",
+        "answer_choices": [
             "5",
             "10",
             "Compiler error",
             "None of the above"
-          ],
-          "correct_answer": "10"
-        },
-     {
-          "question": "What is the output of the following code snippet? \n\n int x = 10, y = 5; \n cout << (x > y) ? x : y;",
-          "answer_choices": [
+        ],
+        "correctAnswer": "10"
+    },
+    {
+        "question": "What is the output of the following code snippet? \n\n int x = 10, y = 5; \n cout << (x > y) ? x : y;",
+        "answer_choices": [
             "10",
             "5",
             "Compiler error",
             "None of the above"
-          ],
-          "correct_answer": "10"
-        },
-        {
-          "question": "What is the correct syntax to dynamically allocate memory for an array of 5 integers in C++?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "10"
+    },
+    {
+        "question": "What is the correct syntax to dynamically allocate memory for an array of 5 integers in C++?",
+        "answer_choices": [
             "int *arr = (int*)malloc(sizeof(int) * 5);",
             "int *arr = new int[5];",
             "int arr[5];",
             "None of the above"
-          ],
-          "correct_answer": "int *arr = new int[5];"
-        },
-        {
-          "question": "What is the output of the following code snippet? \n\n int x = 10, y = 5; \n int *p = &x; \n x = (*p)++; \n cout << x << \" \" << y;",
-          "answer_choices": [
+        ],
+        "correctAnswer": "int *arr = new int[5];"
+    },
+    {
+        "question": "What is the output of the following code snippet? \n\n int x = 10, y = 5; \n int *p = &x; \n x = (*p)++; \n cout << x << \" \" << y;",
+        "answer_choices": [
             "10 5",
             "11 5",
             "10 6",
             "11 6"
-          ],
-          "correct_answer": "11 5"
-        },
-        {
-          "question": "What is the correct way to declare an inline function named \"add\" that takes two integers as arguments and returns their sum in C++?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "11 5"
+    },
+    {
+        "question": "What is the correct way to declare an inline function named \"add\" that takes two integers as arguments and returns their sum in C++?",
+        "answer_choices": [
             "inline int add(int x, int y) { return x + y; }",
             "int inline add(int x, int y) { return x + y; }",
             "int add(int x, int y) inline { return x + y; }",
             "None of the above"
-          ],
-          "correct_answer": "inline int add(int x, int y) { return x + y; }"
-        },
-        {
-          "question": "What is the output of the following code snippet? \n\n int arr[] = {1, 2, 3, 4, 5}; \n int *ptr = arr + 2; \n ptr++; \n cout << *ptr;",
-          "answer_choices": [
+        ],
+        "correctAnswer": "inline int add(int x, int y) { return x + y; }"
+    },
+    {
+        "question": "What is the output of the following code snippet? \n\n int arr[] = {1, 2, 3, 4, 5}; \n int *ptr = arr + 2; \n ptr++; \n cout << *ptr;",
+        "answer_choices": [
             "1",
             "2",
             "3",
             "4"
-          ],
-          "correct_answer": "4"
-        },
-        {
-          "question": "What is the correct way to declare a default constructor for a class named \"Person\" in C++?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "4"
+    },
+    {
+        "question": "What is the correct way to declare a default constructor for a class named \"Person\" in C++?",
+        "answer_choices": [
             "Person() { name = \"\"; age = 0; }",
             "Person::Person() : name(\"\"), age(0) { }",
             "Person() : name(\"\"), age(0) { }",
             "None of the above"
-          ],
-          "correct_answer": "Person::Person() : name(\"\"), age(0) { }"
-        },
-        {
-          "question": "What is the output of the following code snippet? \n\n int x = 5; \n int *p1 = &x; \n int *p2 = p1; \n *p1 = 10; \n cout << *p2;",
-          "answer_choices": [
+        ],
+        "correctAnswer": "Person::Person() : name(\"\"), age(0) { }"
+    },
+    {
+        "question": "What is the output of the following code snippet? \n\n int x = 5; \n int *p1 = &x; \n int *p2 = p1; \n *p1 = 10; \n cout << *p2;",
+        "answer_choices": [
             "5",
             "10",
             "Compiler error",
             "None of the above"
-          ],
-          "correct_answer": "10"
-        },
+        ],
+        "correctAnswer": "10"
+    },
     {
-          "question": "What is the output of the following code snippet? \n\n int x = 5; \n int *p = &x; \n cout << p << endl << *p << endl << &p;",
-          "answer_choices": [
+        "question": "What is the output of the following code snippet? \n\n int x = 5; \n int *p = &x; \n cout << p << endl << *p << endl << &p;",
+        "answer_choices": [
             "Memory address of x, value of x, memory address of p",
             "Memory address of p, value of x, memory address of x",
             "Memory address of x, memory address of p, value of x",
             "Memory address of p, memory address of x, value of x"
-          ],
-          "correct_answer": "Memory address of x, value of x, memory address of p"
-        },
-        {
-          "question": "What is the correct syntax to create a reference variable named \"ref\" that refers to an integer variable named \"x\" in C++?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "Memory address of x, value of x, memory address of p"
+    },
+    {
+        "question": "What is the correct syntax to create a reference variable named \"ref\" that refers to an integer variable named \"x\" in C++?",
+        "answer_choices": [
             "int &ref = x;",
             "int ref = &x;",
             "int ref = *x;",
             "None of the above"
-          ],
-          "correct_answer": "int &ref = x;"
-        },
-        {
-          "question": "What is the output of the following code snippet? \n\n int arr[] = {1, 2, 3, 4, 5}; \n cout << *(arr + 3);",
-          "answer_choices": [
+        ],
+        "correctAnswer": "int &ref = x;"
+    },
+    {
+        "question": "What is the output of the following code snippet? \n\n int arr[] = {1, 2, 3, 4, 5}; \n cout << *(arr + 3);",
+        "answer_choices": [
             "1",
             "2",
             "3",
             "4"
-          ],
-          "correct_answer": "4"
-        },
-        {
-          "question": "What is the correct way to define a function named \"max\" that takes two integers as arguments and returns the larger of the two in C++?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "4"
+    },
+    {
+        "question": "What is the correct way to define a function named \"max\" that takes two integers as arguments and returns the larger of the two in C++?",
+        "answer_choices": [
             "int max(int x, int y) { return (x > y) ? x : y; }",
             "int max(int x, y) { return (x > y) ? x : y; }",
             "int max(int x, int y) (x > y) ? x : y;",
             "None of the above"
-          ],
-          "correct_answer": "int max(int x, int y) { return (x > y) ? x : y; }"
-        },
-        {
-          "question": "What is the output of the following code snippet? \n\n int x = 10; \n int *p1 = &x; \n int **p2 = &p1; \n cout << **p2;",
-          "answer_choices": [
+        ],
+        "correctAnswer": "int max(int x, int y) { return (x > y) ? x : y; }"
+    },
+    {
+        "question": "What is the output of the following code snippet? \n\n int x = 10; \n int *p1 = &x; \n int **p2 = &p1; \n cout << **p2;",
+        "answer_choices": [
             "10",
             "Memory address of x",
             "Memory address of p1",
             "Compiler error"
-          ],
-          "correct_answer": "10"
-        },
-        {
-          "question": "What is the correct syntax to create an object of a class named \"Person\" using the default constructor in C++?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "10"
+    },
+    {
+        "question": "What is the correct syntax to create an object of a class named \"Person\" using the default constructor in C++?",
+        "answer_choices": [
             "Person p();",
             "Person p{};",
             "Person p;",
             "None of the above"
-          ],
-          "correct_answer": "Person p;"
-        },
-        {
-          "question": "What is the output of the following code snippet? \n\n int x = 5; \n int *p = &x; \n int *q = p; \n *p = 10; \n cout << *q;",
-          "answer_choices": [
+        ],
+        "correctAnswer": "Person p;"
+    },
+    {
+        "question": "What is the output of the following code snippet? \n\n int x = 5; \n int *p = &x; \n int *q = p; \n *p = 10; \n cout << *q;",
+        "answer_choices": [
             "5",
             "10",
             "Compiler error",
             "None of the above"
-          ],
-          "correct_answer": "10"
-        },
+        ],
+        "correctAnswer": "10"
+    },
     {
-          "question": "What is the output of the following code snippet? \n\n int arr[] = {1, 2, 3, 4, 5}; \n int *p = arr; \n cout << *p << endl << *(p + 3) << endl << *(p++) << endl << *p;",
-          "answer_choices": [
+        "question": "What is the output of the following code snippet? \n\n int arr[] = {1, 2, 3, 4, 5}; \n int *p = arr; \n cout << *p << endl << *(p + 3) << endl << *(p++) << endl << *p;",
+        "answer_choices": [
             "1, 4, 1, 2",
             "1, 4, 2, 2",
             "1, 4, 2, 3",
             "1, 4, 1, 3"
-          ],
-          "correct_answer": "1, 4, 1, 2"
-        },
-        {
-          "question": "What is the correct syntax to declare a class named \"Rectangle\" with a private integer member variable named \"width\" and a public member function named \"set_width\" that sets the value of the \"width\" variable?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "1, 4, 1, 2"
+    },
+    {
+        "question": "What is the correct syntax to declare a class named \"Rectangle\" with a private integer member variable named \"width\" and a public member function named \"set_width\" that sets the value of the \"width\" variable?",
+        "answer_choices": [
             "class Rectangle { private: int width; public: set_width(int w) { width = w; } };",
             "class Rectangle { public: int width; private: set_width(int w) { width = w; } };",
             "class Rectangle { private: int width; public: void set_width(int w) { width = w; } };",
             "None of the above"
-          ],
-          "correct_answer": "class Rectangle { private: int width; public: void set_width(int w) { width = w; } };"
-        },
-        {
-          "question": "What is the output of the following code snippet? \n\n int arr[3][3] = { {1, 2, 3}, {4, 5, 6}, {7, 8, 9} }; \n cout << arr[1][2];",
-          "answer_choices": [
+        ],
+        "correctAnswer": "class Rectangle { private: int width; public: void set_width(int w) { width = w; } };"
+    },
+    {
+        "question": "What is the output of the following code snippet? \n\n int arr[3][3] = { {1, 2, 3}, {4, 5, 6}, {7, 8, 9} }; \n cout << arr[1][2];",
+        "answer_choices": [
             "1",
             "2",
             "6",
             "8"
-          ],
-          "correct_answer": "6"
-        },
-        {
-          "question": "What is the correct way to define a class named \"Circle\" with a private float member variable named \"radius\", a public member function named \"set_radius\" that sets the value of the \"radius\" variable, and a public member function named \"get_area\" that returns the area of the circle?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "6"
+    },
+    {
+        "question": "What is the correct way to define a class named \"Circle\" with a private float member variable named \"radius\", a public member function named \"set_radius\" that sets the value of the \"radius\" variable, and a public member function named \"get_area\" that returns the area of the circle?",
+        "answer_choices": [
             "class Circle { private: float radius; public: set_radius(float r) { radius = r; } public: get_area() { return 3.14 * radius * radius; } };",
             "class Circle { public: float radius; private: set_radius(float r) { radius = r; } public: get_area() { return 3.14 * radius * radius; } };",
             "class Circle { private: float radius; public: void set_radius(float r) { radius = r; } public: float get_area() { return 3.14 * radius * radius; } };",
             "None of the above"
-          ],
-          "correct_answer": "class Circle { private: float radius; public: void set_radius(float r) { radius = r; } public: float get_area() { return 3.14 * radius * radius; } };"
-        },
-     {
-          "question": "What is the output of the following code snippet? \n\n int x = 10; \n int *ptr = &x; \n cout << ptr << endl << *ptr << endl << &x;",
-          "answer_choices": [
-            "Address of x, value of x, address of x",
-            "Address of ptr, value of x, address of x",
-            "Value of x, address of x, address of ptr",
-            "Address of ptr, value of ptr, address of x"
-          ],
-          "correct_answer": "Address of x, value of x, address of x"
-        },
-        {
-          "question": "What is the correct way to declare a function named \"multiply\" that takes two integer parameters and returns their product?",
-          "answer_choices": [
-            "multiply(int x, y) { return x * y; }",
-            "int multiply(int x, int y) { return x * y; }",
-            "multiply(x, y) int { return x * y; }",
-            "None of the above"
-          ],
-          "correct_answer": "int multiply(int x, int y) { return x * y; }"
-        },
-        {
-          "question": "What is the output of the following code snippet? \n\n string str = \"Hello, World!\"; \n cout << str.length();",
-          "answer_choices": [
-            "5",
-            "7",
-            "12",
-            "None of the above"
-          ],
-          "correct_answer": "13"
-        },
-        {
-          "question": "What is the correct way to declare a class named \"Animal\" with a public member function named \"make_sound\"?",
-          "answer_choices": [
-            "class Animal { public: void make_sound(); };",
-            "class Animal { private: void make_sound(); };",
-            "class Animal { public: make_sound(); };",
-            "None of the above"
-          ],
-          "correct_answer": "class Animal { public: void make_sound(); };"
-        },
-        {
-          "question": "What is the output of the following code snippet? \n\n int arr[] = {1, 2, 3, 4, 5}; \n int *p = &arr[2]; \n cout << *p << endl << p[-1] << endl << *(p + 2);",
-          "answer_choices": [
-            "3, 2, 5",
-            "2, 3, 5",
-            "3, 2, 4",
-            "2, 3, 4"
-          ],
-          "correct_answer": "3, 2, 5"
-        },
-        {
-          "question": "What is the correct way to define a class named \"Person\" with private member variables named \"name\", \"age\", and \"address\"?",
-          "answer_choices": [
-            "class Person { name, age, address; };",
-            "class Person { private: name, age, address; };",
-            "class Person { private: string name, int age, string address; };",
-            "class Person { private: string name; private: int age; private: string address; };"
-          ],
-          "correct_answer": "class Person { private: string name; private: int age; private: string address; };"
-        },
+        ],
+        "correctAnswer": "class Circle { private: float radius; public: void set_radius(float r) { radius = r; } public: float get_area() { return 3.14 * radius * radius; } };"
+    },
     {
-          "question": "What is the output of the following code snippet? \n\n int x = 10; \n int *ptr = &x; \n cout << ptr << endl << *ptr << endl << &x;",
-          "answer_choices": [
+        "question": "What is the output of the following code snippet? \n\n int x = 10; \n int *ptr = &x; \n cout << ptr << endl << *ptr << endl << &x;",
+        "answer_choices": [
             "Address of x, value of x, address of x",
             "Address of ptr, value of x, address of x",
             "Value of x, address of x, address of ptr",
             "Address of ptr, value of ptr, address of x"
-          ],
-          "correct_answer": "Address of x, value of x, address of x"
-        },
-        {
-          "question": "What is the correct way to declare a function named \"multiply\" that takes two integer parameters and returns their product?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "Address of x, value of x, address of x"
+    },
+    {
+        "question": "What is the correct way to declare a function named \"multiply\" that takes two integer parameters and returns their product?",
+        "answer_choices": [
             "multiply(int x, y) { return x * y; }",
             "int multiply(int x, int y) { return x * y; }",
             "multiply(x, y) int { return x * y; }",
             "None of the above"
-          ],
-          "correct_answer": "int multiply(int x, int y) { return x * y; }"
-        },
-        {
-          "question": "What is the output of the following code snippet? \n\n string str = \"Hello, World!\"; \n cout << str.length();",
-          "answer_choices": [
+        ],
+        "correctAnswer": "int multiply(int x, int y) { return x * y; }"
+    },
+    {
+        "question": "What is the output of the following code snippet? \n\n string str = \"Hello, World!\"; \n cout << str.length();",
+        "answer_choices": [
             "5",
             "7",
             "12",
             "None of the above"
-          ],
-          "correct_answer": "13"
-        },
-        {
-          "question": "What is the correct way to declare a class named \"Animal\" with a public member function named \"make_sound\"?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "13"
+    },
+    {
+        "question": "What is the correct way to declare a class named \"Animal\" with a public member function named \"make_sound\"?",
+        "answer_choices": [
             "class Animal { public: void make_sound(); };",
             "class Animal { private: void make_sound(); };",
             "class Animal { public: make_sound(); };",
             "None of the above"
-          ],
-          "correct_answer": "class Animal { public: void make_sound(); };"
-        },
-        {
-          "question": "What is the output of the following code snippet? \n\n int arr[] = {1, 2, 3, 4, 5}; \n int *p = &arr[2]; \n cout << *p << endl << p[-1] << endl << *(p + 2);",
-          "answer_choices": [
+        ],
+        "correctAnswer": "class Animal { public: void make_sound(); };"
+    },
+    {
+        "question": "What is the output of the following code snippet? \n\n int arr[] = {1, 2, 3, 4, 5}; \n int *p = &arr[2]; \n cout << *p << endl << p[-1] << endl << *(p + 2);",
+        "answer_choices": [
             "3, 2, 5",
             "2, 3, 5",
             "3, 2, 4",
             "2, 3, 4"
-          ],
-          "correct_answer": "3, 2, 5"
-        },
-        {
-          "question": "What is the correct way to define a class named \"Person\" with private member variables named \"name\", \"age\", and \"address\"?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "3, 2, 5"
+    },
+    {
+        "question": "What is the correct way to define a class named \"Person\" with private member variables named \"name\", \"age\", and \"address\"?",
+        "answer_choices": [
             "class Person { name, age, address; };",
             "class Person { private: name, age, address; };",
             "class Person { private: string name, int age, string address; };",
             "class Person { private: string name; private: int age; private: string address; };"
-          ],
-          "correct_answer": "class Person { private: string name; private: int age; private: string address; };"
-        },
-     {
-          "question": "What is the output of the following code snippet? \n\n int a = 10; \n int b = 5; \n int c = a > b ? a : b; \n cout << c;",
-          "answer_choices": [
+        ],
+        "correctAnswer": "class Person { private: string name; private: int age; private: string address; };"
+    },
+    {
+        "question": "What is the output of the following code snippet? \n\n int x = 10; \n int *ptr = &x; \n cout << ptr << endl << *ptr << endl << &x;",
+        "answer_choices": [
+            "Address of x, value of x, address of x",
+            "Address of ptr, value of x, address of x",
+            "Value of x, address of x, address of ptr",
+            "Address of ptr, value of ptr, address of x"
+        ],
+        "correctAnswer": "Address of x, value of x, address of x"
+    },
+    {
+        "question": "What is the correct way to declare a function named \"multiply\" that takes two integer parameters and returns their product?",
+        "answer_choices": [
+            "multiply(int x, y) { return x * y; }",
+            "int multiply(int x, int y) { return x * y; }",
+            "multiply(x, y) int { return x * y; }",
+            "None of the above"
+        ],
+        "correctAnswer": "int multiply(int x, int y) { return x * y; }"
+    },
+    {
+        "question": "What is the output of the following code snippet? \n\n string str = \"Hello, World!\"; \n cout << str.length();",
+        "answer_choices": [
+            "5",
+            "7",
+            "12",
+            "None of the above"
+        ],
+        "correctAnswer": "13"
+    },
+    {
+        "question": "What is the correct way to declare a class named \"Animal\" with a public member function named \"make_sound\"?",
+        "answer_choices": [
+            "class Animal { public: void make_sound(); };",
+            "class Animal { private: void make_sound(); };",
+            "class Animal { public: make_sound(); };",
+            "None of the above"
+        ],
+        "correctAnswer": "class Animal { public: void make_sound(); };"
+    },
+    {
+        "question": "What is the output of the following code snippet? \n\n int arr[] = {1, 2, 3, 4, 5}; \n int *p = &arr[2]; \n cout << *p << endl << p[-1] << endl << *(p + 2);",
+        "answer_choices": [
+            "3, 2, 5",
+            "2, 3, 5",
+            "3, 2, 4",
+            "2, 3, 4"
+        ],
+        "correctAnswer": "3, 2, 5"
+    },
+    {
+        "question": "What is the correct way to define a class named \"Person\" with private member variables named \"name\", \"age\", and \"address\"?",
+        "answer_choices": [
+            "class Person { name, age, address; };",
+            "class Person { private: name, age, address; };",
+            "class Person { private: string name, int age, string address; };",
+            "class Person { private: string name; private: int age; private: string address; };"
+        ],
+        "correctAnswer": "class Person { private: string name; private: int age; private: string address; };"
+    },
+    {
+        "question": "What is the output of the following code snippet? \n\n int a = 10; \n int b = 5; \n int c = a > b ? a : b; \n cout << c;",
+        "answer_choices": [
             "10",
             "5",
             "a",
             "b"
-          ],
-          "correct_answer": "10"
-        },
-        {
-          "question": "What is the correct way to declare a constant integer named \"MAX\" with a value of 100?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "10"
+    },
+    {
+        "question": "What is the correct way to declare a constant integer named \"MAX\" with a value of 100?",
+        "answer_choices": [
             "MAX = 100;",
             "const int MAX = 100;",
             "int MAX = 100; const;",
             "None of the above"
-          ],
-          "correct_answer": "const int MAX = 100;"
-        },
-        {
-          "question": "What is the output of the following code snippet? \n\n int x = 10; \n int &y = x; \n cout << y;",
-          "answer_choices": [
+        ],
+        "correctAnswer": "const int MAX = 100;"
+    },
+    {
+        "question": "What is the output of the following code snippet? \n\n int x = 10; \n int &y = x; \n cout << y;",
+        "answer_choices": [
             "10",
             "x",
             "y",
             "None of the above"
-          ],
-          "correct_answer": "10"
-        },
-        {
-          "question": "What is the correct way to declare an array of integers named \"myArray\" with a length of 5?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "10"
+    },
+    {
+        "question": "What is the correct way to declare an array of integers named \"myArray\" with a length of 5?",
+        "answer_choices": [
             "int myArray[5];",
             "array<int> myArray(5);",
             "vector<int> myArray(5);",
             "None of the above"
-          ],
-          "correct_answer": "int myArray[5];"
-        },
-        {
-          "question": "What is the output of the following code snippet? \n\n int x = 10; \n int *ptr = &x; \n cout << *ptr << endl << ptr << endl << &x;",
-          "answer_choices": [
+        ],
+        "correctAnswer": "int myArray[5];"
+    },
+    {
+        "question": "What is the output of the following code snippet? \n\n int x = 10; \n int *ptr = &x; \n cout << *ptr << endl << ptr << endl << &x;",
+        "answer_choices": [
             "10, address of x, value of x",
             "value of ptr, value of x, address of ptr",
             "value of x, address of x, address of ptr",
             "None of the above"
-          ],
-          "correct_answer": "10, address of x, address of x"
-        },
-        {
-          "question": "What is the correct way to declare a class named \"Shape\" with a virtual member function named \"draw\"?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "10, address of x, address of x"
+    },
+    {
+        "question": "What is the correct way to declare a class named \"Shape\" with a virtual member function named \"draw\"?",
+        "answer_choices": [
             "class Shape { public: virtual void draw(); };",
             "class Shape { virtual void draw(); };",
             "class Shape { void draw() virtual; };",
             "None of the above"
-          ],
-          "correct_answer": "class Shape { public: virtual void draw(); };"
-        },
-        {
-          "question": "What is the output of the following code snippet? \n\n int arr[] = {1, 2, 3, 4, 5}; \n cout << *(arr + 2) << endl << arr[2] << endl << 2[arr];",
-          "answer_choices": [
+        ],
+        "correctAnswer": "class Shape { public: virtual void draw(); };"
+    },
+    {
+        "question": "What is the output of the following code snippet? \n\n int arr[] = {1, 2, 3, 4, 5}; \n cout << *(arr + 2) << endl << arr[2] << endl << 2[arr];",
+        "answer_choices": [
             "3, 3, 3",
             "2, 3, 4",
             "3, 2, 5",
             "None of the above"
-          ],
-          "correct_answer": "3, 3, 4"
-        },
-      {
-          "question": "Which of the following is not a valid HTML5 input type?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "3, 3, 4"
+    },
+    {
+        "question": "Which of the following is not a valid HTML5 input type?",
+        "answer_choices": [
             "date",
             "color",
             "range",
             "checkboxes"
-          ],
-          "correctAnswer": "d"
-        },
-        {
-          "question": "Which CSS property is used to create a drop shadow effect?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "d"
+    },
+    {
+        "question": "Which CSS property is used to create a drop shadow effect?",
+        "answer_choices": [
             "text-shadow",
             "box-shadow",
             "background-shadow",
             "border-shadow"
-          ],
-          "correctAnswer": "b"
-        },
-        {
-          "question": "Which CSS property is used to create a drop shadow effect?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "b"
+    },
+    {
+        "question": "Which CSS property is used to create a drop shadow effect?",
+        "answer_choices": [
             "text-shadow",
             "box-shadow",
             "background-shadow",
             "border-shadow"
-          ],
-          "correctAnswer": "b"
-        },
-        {
-          "question": "What is the correct syntax for a JavaScript if statement?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "b"
+    },
+    {
+        "question": "What is the correct syntax for a JavaScript if statement?",
+        "answer_choices": [
             "if (x === 0) { }",
             "if x === 0 { }",
             "if x = 0 { }",
             "if x == 0 { }"
-          ],
-          "correctAnswer": "a"
-        },
-        {
-          "question": "What is the correct way to create a function in JavaScript?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "What is the correct way to create a function in JavaScript?",
+        "answer_choices": [
             "function myFunction() { }",
             "myFunction() { }",
             "var myFunction = function() { }",
             "myFunction = () => { }"
-          ],
-          "correctAnswer": "a"
-        },
-        {
-          "question": "Which of the following is not a valid CSS display property value?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "Which of the following is not a valid CSS display property value?",
+        "answer_choices": [
             "block",
             "inline",
             "grid",
             "column"
-          ],
-          "correctAnswer": "d"
-        },
-        {
-          "question": "What is the correct way to declare a variable in JavaScript?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "d"
+    },
+    {
+        "question": "What is the correct way to declare a variable in JavaScript?",
+        "answer_choices": [
             "var myVariable;",
             "myVariable = 'value';",
             "var myVariable = 'value';",
             "All of the above"
-          ],
-          "correctAnswer": "c"
-        },
-        {
-          "question": "Which HTML tag is used to define a table row?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "c"
+    },
+    {
+        "question": "Which HTML tag is used to define a table row?",
+        "answer_choices": [
             "<td>",
             "<th>",
             "<tr>",
             "<table>"
-          ],
-          "correctAnswer": "c"
-        },
-        {
-          "question": "What is the correct way to add an element to an array in JavaScript?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "c"
+    },
+    {
+        "question": "What is the correct way to add an element to an array in JavaScript?",
+        "answer_choices": [
             "array.push('element');",
             "array.add('element');",
             "array.insert('element');",
             "array.concat('element');"
-          ],
-          "correctAnswer": "a"
-        },
-        {
-          "question": "Which HTML tag is used to define a list item?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "Which HTML tag is used to define a list item?",
+        "answer_choices": [
             "<li>",
             "<ul>",
             "<ol>",
             "<dl>"
-          ],
-          "correctAnswer": "a"
-        },
-        {
-          "question": "Which CSS property is used to set the background color of an element?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "Which CSS property is used to set the background color of an element?",
+        "answer_choices": [
             "color",
             "background",
             "background-color",
             "text-color"
-          ],
-          "correctAnswer": "c"
-        },
-        {
-          "question": "What is the correct syntax for a JavaScript switch statement?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "c"
+    },
+    {
+        "question": "What is the correct syntax for a JavaScript switch statement?",
+        "answer_choices": [
             "switch (x) { case 1: break; default: break; }",
             "switch { x: case 1: break; default: break; }",
             "if (x === 1) { } else { }",
             "while (x === 1) { }"
-          ],
-          "correctAnswer": "a"
-        },
-        {
-          "question": "Which of the following is not a valid HTML5 media element?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "Which of the following is not a valid HTML5 media element?",
+        "answer_choices": [
             "<audio>",
             "<video>",
             "<image>",
             "<source>"
-          ],
-          "correctAnswer": "c"
-        },
-        {
-          "question": "What is the correct way to apply a CSS style to a specific HTML element with a specific class?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "c"
+    },
+    {
+        "question": "What is the correct way to apply a CSS style to a specific HTML element with a specific class?",
+        "answer_choices": [
             "element .class { }",
             ".class element { }",
             "element.class { }",
             ".class { element: }"
-          ],
-          "correctAnswer": "c"
-        },
-        {
-          "question": "What is the correct way to declare a constant in JavaScript?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "c"
+    },
+    {
+        "question": "What is the correct way to declare a constant in JavaScript?",
+        "answer_choices": [
             "const myConstant = 'value';",
             "myConstant = 'value';",
             "var myConstant = 'value';",
             "let myConstant = 'value';"
-          ],
-          "correctAnswer": "a"
-        },
-        {
-          "question": "Which of the following is not a valid HTML form element?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "Which of the following is not a valid HTML form element?",
+        "answer_choices": [
             "<form>",
             "<input>",
             "<button>",
             "<label>"
-          ],
-          "correctAnswer": "d"
-        },
-        {
-          "question": "What is the correct way to add an event listener to an HTML element in JavaScript?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "d"
+    },
+    {
+        "question": "What is the correct way to add an event listener to an HTML element in JavaScript?",
+        "answer_choices": [
             "element.addEventListener('click', myFunction);",
             "element.click(myFunction);",
             "element.click = myFunction;",
             "myFunction.addEventListener('click', element);"
-          ],
-          "correctAnswer": "a"
-        },
-        {
-          "question": "Which HTML attribute specifies the alternate text for an image?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "Which HTML attribute specifies the alternate text for an image?",
+        "answer_choices": [
             "src",
             "alt",
             "title",
             "href"
-          ],
-          "correctAnswer": "b"
-        },
-        {
-          "question": "Which CSS property is used to specify the size of the font?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "b"
+    },
+    {
+        "question": "Which CSS property is used to specify the size of the font?",
+        "answer_choices": [
             "text-size",
             "font-size",
             "size",
             "text-font-size"
-          ],
-          "correctAnswer": "b"
-        },
-        {
-          "question": "Which of the following is not a valid JavaScript data type?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "b"
+    },
+    {
+        "question": "Which of the following is not a valid JavaScript data type?",
+        "answer_choices": [
             "string",
             "integer",
             "boolean",
             "null"
-          ],
-          "correctAnswer": "b"
-        },
-        {
-          "question": "Which HTML tag is used to define a hyperlink?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "b"
+    },
+    {
+        "question": "Which HTML tag is used to define a hyperlink?",
+        "answer_choices": [
             "<a>",
             "<p>",
             "<h1>",
             "<div>"
-          ],
-          "correctAnswer": "a"
-        },
-        {
-          "question": "Which CSS property is used to add a border to an element?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "Which CSS property is used to add a border to an element?",
+        "answer_choices": [
             "border-style",
             "border",
             "border-width",
             "border-color"
-          ],
-          "correctAnswer": "b"
-        },
-        {
-          "question": "What is the correct way to declare a function in JavaScript?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "b"
+    },
+    {
+        "question": "What is the correct way to declare a function in JavaScript?",
+        "answer_choices": [
             "function myFunction() { }",
             "myFunction = function() { }",
             "const myFunction = function() { }",
             "let myFunction() { }"
-          ],
-          "correctAnswer": "a"
-        },
-        {
-          "question": "Which HTML tag is used to define a table row?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "Which HTML tag is used to define a table row?",
+        "answer_choices": [
             "<tr>",
             "<td>",
             "<th>",
             "<table>"
-          ],
-          "correctAnswer": "a"
-        },
-        {
-          "question": "What is the correct way to remove an HTML element in JavaScript?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "What is the correct way to remove an HTML element in JavaScript?",
+        "answer_choices": [
             "element.parentNode.removeChild(element);",
             "element.remove();",
             "element.removeChild(element.parentNode);",
             "parentNode.remove(element);"
-          ],
-          "correctAnswer": "b"
-        },
-        {
-          "question": "Which of the following is not a valid CSS position property value?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "b"
+    },
+    {
+        "question": "Which of the following is not a valid CSS position property value?",
+        "answer_choices": [
             "static",
             "absolute",
             "sticky",
             "inline"
-          ],
-          "correctAnswer": "d"
-        },
-        {
-          "question": "What is the correct way to access the first element of an array in JavaScript?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "d"
+    },
+    {
+        "question": "What is the correct way to access the first element of an array in JavaScript?",
+        "answer_choices": [
             "myArray[0]",
             "myArray[1]",
             "myArray.first()",
             "myArray.shift()"
-          ],
-          "correctAnswer": "a"
-        },
-        {
-          "question": "Which HTML attribute is used to specify the text direction?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "Which HTML attribute is used to specify the text direction?",
+        "answer_choices": [
             "lang",
             "dir",
             "text-dir",
             "align"
-          ],
-          "correctAnswer": "b"
-        },
-        {
-          "question": "Which CSS property is used to align text within an element?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "b"
+    },
+    {
+        "question": "Which CSS property is used to align text within an element?",
+        "answer_choices": [
             "text-align",
             "align",
             "text-aligning",
             "align-text"
-          ],
-          "correctAnswer": "a"
-        },
-        {
-          "question": "What is the result of the following JavaScript expression: 10 % 3?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "What is the result of the following JavaScript expression: 10 % 3?",
+        "answer_choices": [
             "1",
             "2",
             "3",
             "4"
-          ],
-          "correctAnswer": "a"
-        },
-        {
-          "question": "Which HTML tag is used to define a list item?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "Which HTML tag is used to define a list item?",
+        "answer_choices": [
             "<li>",
             "<ul>",
             "<ol>",
             "<dl>"
-          ],
-          "correctAnswer": "a"
-        },
-        {
-          "question": "Which CSS property is used to add padding to an element?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "Which CSS property is used to add padding to an element?",
+        "answer_choices": [
             "padding",
             "padding-size",
             "size",
             "padding-width"
-          ],
-          "correctAnswer": "a"
-        },
-        {
-          "question": "What is the correct syntax to declare a variable in JavaScript?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "What is the correct syntax to declare a variable in JavaScript?",
+        "answer_choices": [
             "let myVariable;",
             "var myVariable;",
             "const myVariable;",
             "All of the above"
-          ],
-          "correctAnswer": "d"
-        },
-        {
-          "question": "Which HTML tag is used to define a header?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "d"
+    },
+    {
+        "question": "Which HTML tag is used to define a header?",
+        "answer_choices": [
             "<header>",
             "<h1>",
             "<head>",
             "<section>"
-          ],
-          "correctAnswer": "a"
-        },
-        {
-          "question": "What is the correct way to add a new class to an element in JavaScript?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "What is the correct way to add a new class to an element in JavaScript?",
+        "answer_choices": [
             "element.setAttribute('class', 'new-class');",
             "element.className = 'new-class';",
             "element.class = 'new-class';",
             "element.addClass('new-class');"
-          ],
-          "correctAnswer": "b"
-        },
-        {
-          "question": "Which of the following is not a valid CSS display property value?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "b"
+    },
+    {
+        "question": "Which of the following is not a valid CSS display property value?",
+        "answer_choices": [
             "inline",
             "block",
             "visible",
             "flex"
-          ],
-          "correctAnswer": "c"
-        },
-        {
-          "question": "Which HTML tag is used to create a hyperlink?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "c"
+    },
+    {
+        "question": "Which HTML tag is used to create a hyperlink?",
+        "answer_choices": [
             "<a>",
             "<h1>",
             "<p>",
             "<img>"
-          ],
-          "correctAnswer": "a"
-        },
-        {
-          "question": "What is the purpose of the CSS property \"z-index\"?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "What is the purpose of the CSS property \"z-index\"?",
+        "answer_choices": [
             "To set the opacity of an element",
             "To set the position of an element",
             "To specify the order of overlapping elements",
             "To add a border to an element"
-          ],
-          "correctAnswer": "c"
-        },
-        {
-          "question": "What is the result of the following JavaScript expression: \"5\" + 2?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "c"
+    },
+    {
+        "question": "What is the result of the following JavaScript expression: \"5\" + 2?",
+        "answer_choices": [
             "7",
             "52",
             "25",
             "NaN"
-          ],
-          "correctAnswer": "b"
-        },
-        {
-          "question": "Which HTML tag is used to define a table row?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "b"
+    },
+    {
+        "question": "Which HTML tag is used to define a table row?",
+        "answer_choices": [
             "<tr>",
             "<td>",
             "<th>",
             "<table>"
-          ],
-          "correctAnswer": "a"
-        },
-        {
-          "question": "Which CSS property is used to change the font size of text?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "Which CSS property is used to change the font size of text?",
+        "answer_choices": [
             "font-size",
             "text-size",
             "font-style",
             "font-weight"
-          ],
-          "correctAnswer": "a"
-        },
-        {
-          "question": "What is the correct syntax to add an event listener to an HTML element in JavaScript?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "What is the correct syntax to add an event listener to an HTML element in JavaScript?",
+        "answer_choices": [
             "element.addEventListener('click', myFunction);",
             "element.click(myFunction);",
             "element.onClick = myFunction;",
             "All of the above"
-          ],
-          "correctAnswer": "a"
-        },
-        {
-          "question": "Which HTML tag is used to define a form?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "Which HTML tag is used to define a form?",
+        "answer_choices": [
             "<form>",
             "<input>",
             "<button>",
             "<label>"
-          ],
-          "correctAnswer": "a"
-        },
-        {
-          "question": "What is the correct way to select an element by its ID using JavaScript?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "What is the correct way to select an element by its ID using JavaScript?",
+        "answer_choices": [
             "document.getElementById('myId');",
             "document.getElementByName('myId');",
             "document.getElementsByClass('myId');",
             "All of the above"
-          ],
-          "correctAnswer": "a"
-        },
-        {
-          "question": "Which of the following is not a valid value for the CSS \"position\" property?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "Which of the following is not a valid value for the CSS \"position\" property?",
+        "answer_choices": [
             "static",
             "fixed",
             "sticky",
             "flow"
-          ],
-          "correctAnswer": "d"
-        },
-        {
-          "question": "Which HTML tag is used to define a paragraph?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "d"
+    },
+    {
+        "question": "Which HTML tag is used to define a paragraph?",
+        "answer_choices": [
             "<p>",
             "<h1>",
             "<div>",
             "<span>"
-          ],
-          "correctAnswer": "a"
-        },
-        {
-          "question": "Which CSS property is used to change the background color of an element?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "Which CSS property is used to change the background color of an element?",
+        "answer_choices": [
             "color",
             "background",
             "background-color",
             "border"
-          ],
-          "correctAnswer": "c"
-        },
-        {
-          "question": "What is the result of the following JavaScript expression: 2 + 2 + \"2\"?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "c"
+    },
+    {
+        "question": "What is the result of the following JavaScript expression: 2 + 2 + \"2\"?",
+        "answer_choices": [
             "6",
             "22",
             "24",
             "NaN"
-          ],
-          "correctAnswer": "b"
-        },
-        {
-          "question": "Which HTML tag is used to define a header for a section or article?",
-          "answer_choices": [    "<header>",    "<h1>",    "<nav>",    "<section>"  ],
-          "correctAnswer": "a"
-        },
-        {
-          "question": "Which CSS property is used to change the text color of an element?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "b"
+    },
+    {
+        "question": "Which HTML tag is used to define a header for a section or article?",
+        "answer_choices": [
+            "<header>",
+            "<h1>",
+            "<nav>",
+            "<section>"
+        ],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "Which CSS property is used to change the text color of an element?",
+        "answer_choices": [
             "color",
             "text-color",
             "background-color",
             "font-color"
-          ],
-          "correctAnswer": "a"
-        },
-        {
-          "question": "What is the correct way to create a new array in JavaScript?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "What is the correct way to create a new array in JavaScript?",
+        "answer_choices": [
             "var myArray = [];",
             "var myArray = new Array();",
             "Both of the above",
             "None of the above"
-          ],
-          "correctAnswer": "c"
-        },
-        {
-          "question": "Which HTML tag is used to define a list item?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "c"
+    },
+    {
+        "question": "Which HTML tag is used to define a list item?",
+        "answer_choices": [
             "<li>",
             "<ul>",
             "<ol>",
             "<dl>"
-          ],
-          "correctAnswer": "a"
-        },
-        {
-          "question": "What is the correct way to select all elements with a certain class using JavaScript?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "What is the correct way to select all elements with a certain class using JavaScript?",
+        "answer_choices": [
             "document.getElementsByClassName('myClass');",
             "document.getElementById('myClass');",
             "document.getElementsByClass('myClass');",
             "All of the above"
-          ],
-          "correctAnswer": "a"
-        },
-        {
-          "question": "Which of the following is not a valid value for the CSS \"display\" property?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "Which of the following is not a valid value for the CSS \"display\" property?",
+        "answer_choices": [
             "block",
             "inline",
             "flex",
             "center"
-          ],
-          "correctAnswer": "d"
-        },
-        {
-          "question": "What does CSS stand for?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "d"
+    },
+    {
+        "question": "What does CSS stand for?",
+        "answer_choices": [
             "Cascading Style Sheets",
             "Computer Style Sheets",
             "Cascading Sheets System",
             "Computer Sheets System"
-          ],
-          "correctAnswer": "a"
-        },
-        {
-          "question": "What is the correct way to add an external CSS file to an HTML document?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "What is the correct way to add an external CSS file to an HTML document?",
+        "answer_choices": [
             "<link rel=\"stylesheet\" href=\"styles.css\">",
             "<style src=\"styles.css\"></style>",
             "<link src=\"styles.css\" rel=\"stylesheet\">",
             "<style rel=\"stylesheet\" href=\"styles.css\"></style>"
-          ],
-          "correctAnswer": "a"
-        },
-        {
-          "question": "Which HTML tag is used to define a hyperlink?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "Which HTML tag is used to define a hyperlink?",
+        "answer_choices": [
             "<link>",
             "<a>",
             "<href>",
             "<url>"
-          ],
-          "correctAnswer": "b"
-        },
-        {
-          "question": "What is the result of the following JavaScript expression: \"5\" - 2?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "b"
+    },
+    {
+        "question": "What is the result of the following JavaScript expression: \"5\" - 2?",
+        "answer_choices": [
             "3",
             "4",
             "5",
             "NaN"
-          ],
-          "correctAnswer": "a"
-        },
-        {
-          "question": "Which CSS property is used to set the height of an element?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "Which CSS property is used to set the height of an element?",
+        "answer_choices": [
             "width",
             "height",
             "size",
             "dimensions"
-          ],
-          "correctAnswer": "b"
-        },
-        {
-          "question": "What is the correct syntax to write a JavaScript function?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "b"
+    },
+    {
+        "question": "What is the correct syntax to write a JavaScript function?",
+        "answer_choices": [
             "function = myFunction() {}",
             "function myFunction() {}",
             "myFunction = function() {}",
             "All of the above"
-          ],
-          "correctAnswer": "b"
-        },
-        {
-          "question": "Which HTML tag is used to define a table header?",
-          "answer_choices": [    "<thead>",    "<th>",    "<tr>",    "<td>"  ],
-          "correctAnswer": "b"
-        },
-        {
-          "question": "What is the correct way to select the first element in a list using JavaScript?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "b"
+    },
+    {
+        "question": "Which HTML tag is used to define a table header?",
+        "answer_choices": [
+            "<thead>",
+            "<th>",
+            "<tr>",
+            "<td>"
+        ],
+        "correctAnswer": "b"
+    },
+    {
+        "question": "What is the correct way to select the first element in a list using JavaScript?",
+        "answer_choices": [
             "document.querySelector('li:first-child');",
             "document.querySelector('li:last-child');",
             "document.querySelector('li:nth-child(1)');",
             "document.querySelector('li:nth-child(2)');"
-          ],
-          "correctAnswer": "c"
-        },
-        {
-          "question": "What is the purpose of the \"alt\" attribute in an HTML image tag?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "c"
+    },
+    {
+        "question": "What is the purpose of the \"alt\" attribute in an HTML image tag?",
+        "answer_choices": [
             "To specify the URL of the image",
             "To specify the width of the image",
             "To provide alternative text if the image cannot be displayed",
             "To add a border to the image"
-          ],
-          "correctAnswer": "c"
-        },
-        {
-          "question": "What is the correct way to create a new HTML5 document?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "c"
+    },
+    {
+        "question": "What is the correct way to create a new HTML5 document?",
+        "answer_choices": [
             "<!DOCTYPE HTML>",
             "<!DOCTYPE html5>",
             "<!DOCTYPE html>",
             "<!DOCTYPE HTML5>"
-          ],
-          "correctAnswer": "c"
-        },
-        {
-          "question": "Which CSS property is used to create rounded corners?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "c"
+    },
+    {
+        "question": "Which CSS property is used to create rounded corners?",
+        "answer_choices": [
             "border-radius",
             "border-style",
             "border-color",
             "border-width"
-          ],
-          "correctAnswer": "a"
-        },
-        {
-          "question": "What is the purpose of the \"disabled\" attribute in an HTML form element?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "What is the purpose of the \"disabled\" attribute in an HTML form element?",
+        "answer_choices": [
             "To specify the default value of the form element",
             "To disable user interaction with the form element",
             "To specify a label for the form element",
             "To group related form elements together"
-          ],
-          "correctAnswer": "b"
-        },
-        {
-          "question": "What is the correct syntax to add an element to the end of an array in JavaScript?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "b"
+    },
+    {
+        "question": "What is the correct syntax to add an element to the end of an array in JavaScript?",
+        "answer_choices": [
             "array.push(element)",
             "array.add(element)",
             "array.end(element)",
             "array.append(element)"
-          ],
-          "correctAnswer": "a"
-        },
-        {
-          "question": "Which HTML tag is used to create a numbered list?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "Which HTML tag is used to create a numbered list?",
+        "answer_choices": [
             "<ol>",
             "<ul>",
             "<li>",
             "<dl>"
-          ],
-          "correctAnswer": "a"
-        },
-        {
-          "question": "What is the correct way to declare a variable in JavaScript?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "What is the correct way to declare a variable in JavaScript?",
+        "answer_choices": [
             "var myVariable;",
             "let myVariable;",
             "const myVariable;",
             "All of the above"
-          ],
-          "correctAnswer": "d"
-        },
-        {
-          "question": "Which CSS property is used to change the font size of text?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "d"
+    },
+    {
+        "question": "Which CSS property is used to change the font size of text?",
+        "answer_choices": [
             "font-style",
             "font-variant",
             "font-size",
             "font-weight"
-          ],
-          "correctAnswer": "c"
-        },
-        {
-          "question": "What is the result of the following JavaScript expression: \"10\" + 5?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "c"
+    },
+    {
+        "question": "What is the result of the following JavaScript expression: \"10\" + 5?",
+        "answer_choices": [
             "15",
             "105",
             "NaN",
             "undefined"
-          ],
-          "correctAnswer": "b"
-        },
-        {
-          "question": "Which HTML tag is used to create a line break?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "b"
+    },
+    {
+        "question": "Which HTML tag is used to create a line break?",
+        "answer_choices": [
             "<br>",
             "<hr>",
             "<p>",
             "<div>"
-          ],
-          "correctAnswer": "a"
-        },
-        {
-          "question": "Which HTML tag is used to create an image?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "Which HTML tag is used to create an image?",
+        "answer_choices": [
             "<img>",
             "<a>",
             "<div>",
             "<p>"
-          ],
-          "correctAnswer": "a"
-        },
-        {
-          "question": "What is the purpose of the \"target\" attribute in an HTML link?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "What is the purpose of the \"target\" attribute in an HTML link?",
+        "answer_choices": [
             "To specify the URL of the link",
             "To specify the display style of the link",
             "To open the link in a new window or tab",
             "To apply a class to the link"
-          ],
-          "correctAnswer": "c"
-        },
-        {
-          "question": "Which CSS property is used to change the color of text?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "c"
+    },
+    {
+        "question": "Which CSS property is used to change the color of text?",
+        "answer_choices": [
             "text-style",
             "text-variant",
             "color",
             "text-decoration"
-          ],
-          "correctAnswer": "c"
-        },
-        {
-          "question": "What is the correct way to declare a function in JavaScript?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "c"
+    },
+    {
+        "question": "What is the correct way to declare a function in JavaScript?",
+        "answer_choices": [
             "function myFunction() {}",
             "var myFunction = function() {}",
             "myFunction() {}",
             "All of the above"
-          ],
-          "correctAnswer": "a"
-        },
-        {
-          "question": "Which HTML tag is used to create a table row?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "Which HTML tag is used to create a table row?",
+        "answer_choices": [
             "<tr>",
             "<th>",
             "<td>",
             "<table>"
-          ],
-          "correctAnswer": "a"
-        },
-        {
-          "question": "What is the result of the following JavaScript expression: 10 == \"10\"?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "What is the result of the following JavaScript expression: 10 == \"10\"?",
+        "answer_choices": [
             "true",
             "false",
             "NaN",
             "undefined"
-          ],
-          "correctAnswer": "a"
-        },
-        {
-          "question": "What is the purpose of the \"display\" property in CSS?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "What is the purpose of the \"display\" property in CSS?",
+        "answer_choices": [
             "To specify the position of the element",
             "To create a border around the element",
             "To control the visibility of the element",
             "To apply a style to the text within the element"
-          ],
-          "correctAnswer": "c"
-        },
-        {
-          "question": "Which JavaScript method is used to add a new element to an array?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "c"
+    },
+    {
+        "question": "Which JavaScript method is used to add a new element to an array?",
+        "answer_choices": [
             "push()",
             "pop()",
             "shift()",
             "unshift()"
-          ],
-          "correctAnswer": "a"
-        },
-        {
-          "question": "What is the purpose of the \"src\" attribute in an HTML image tag?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "What is the purpose of the \"src\" attribute in an HTML image tag?",
+        "answer_choices": [
             "To specify the width of the image",
             "To specify the height of the image",
             "To apply a style to the image",
             "To specify the URL of the image"
-          ],
-          "correctAnswer": "d"
-        },
-        {
-          "question": "Which CSS property is used to set the background image of an element?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "d"
+    },
+    {
+        "question": "Which CSS property is used to set the background image of an element?",
+        "answer_choices": [
             "background-image",
             "background-color",
             "background-style",
             "None of the above"
-          ],
-          "correctAnswer": "a"
-        },
-        {
-          "question": "What is the purpose of the \"alt\" attribute in an HTML image tag?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "What is the purpose of the \"alt\" attribute in an HTML image tag?",
+        "answer_choices": [
             "To specify the width of the image",
             "To specify the height of the image",
             "To describe the image for accessibility",
             "To apply a style to the image"
-          ],
-          "correctAnswer": "c"
-        },
-        {
-          "question": "Which CSS property is used to set the background color of an element?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "c"
+    },
+    {
+        "question": "Which CSS property is used to set the background color of an element?",
+        "answer_choices": [
             "background-image",
             "background-color",
             "background-style",
             "None of the above"
-          ],
-          "correctAnswer": "b"
-        },
-        {
-          "question": "What is the purpose of the \"innerHTML\" property in JavaScript?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "b"
+    },
+    {
+        "question": "What is the purpose of the \"innerHTML\" property in JavaScript?",
+        "answer_choices": [
             "To change the text content of an element",
             "To change the CSS style of an element",
             "To change the attributes of an element",
             "To add a new element to the document"
-          ],
-          "correctAnswer": "a"
-        },
-        {
-          "question": "Which HTML tag is used to create an unordered list?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "Which HTML tag is used to create an unordered list?",
+        "answer_choices": [
             "<ol>",
             "<li>",
             "<ul>",
             "<dl>"
-          ],
-          "correctAnswer": "c"
-        },
-        {
-          "question": "What is the purpose of the \"float\" property in CSS?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "c"
+    },
+    {
+        "question": "What is the purpose of the \"float\" property in CSS?",
+        "answer_choices": [
             "To control the size of an element",
             "To control the position of an element",
             "To control the color of an element",
             "To control the font of an element"
-          ],
-          "correctAnswer": "b"
-        },
-        {
-          "question": "Which JavaScript method is used to remove the last element from an array?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "b"
+    },
+    {
+        "question": "Which JavaScript method is used to remove the last element from an array?",
+        "answer_choices": [
             "push()",
             "pop()",
             "shift()",
             "unshift()"
-          ],
-          "correctAnswer": "b"
-        },
-        {
-          "question": "What is the purpose of the \"target\" attribute in an HTML link tag?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "b"
+    },
+    {
+        "question": "What is the purpose of the \"target\" attribute in an HTML link tag?",
+        "answer_choices": [
             "To specify the location of the linked document",
             "To specify the type of link",
             "To specify the text of the link",
             "To specify where the linked document will be opened"
-          ],
-          "correctAnswer": "d"
-        },
-        {
-          "question": "Which CSS property is used to set the text color of an element?",
-          "answer_choices": [
+        ],
+        "correctAnswer": "d"
+    },
+    {
+        "question": "Which CSS property is used to set the text color of an element?",
+        "answer_choices": [
             "color",
             "text-color",
             "background-color",
             "None of the above"
-          ],
-          "correctAnswer": "a"
-        }
-         
-    ]
-  
+        ],
+        "correctAnswer": "a"
+    }
+]
