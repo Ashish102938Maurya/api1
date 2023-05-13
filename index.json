@@ -7,7 +7,7 @@
             "24",
             "13"
         ],
-        "correctAnswer": "33"
+        "correctAnswer": "a"
     },
     {
         "question": "Which of the following is NOT a valid C++ data type? ",
@@ -17,7 +17,7 @@
             "char",
             "string"
         ],
-        "correctAnswer": "string"
+        "correctAnswer": "d"
     },
     {
         "question": "What is the output of the following code snippet? \n\n int i = 5; \n cout << (i > 3 ? \"yes\" : \"no\");",
@@ -27,7 +27,7 @@
             "true",
             "false"
         ],
-        "correctAnswer": "yes"
+        "correctAnswer": "a"
     },
     {
         "question": "What is the output of the following code snippet? \n\n int arr[] = {1, 2, 3}; \n cout << *(arr+1);",
@@ -37,17 +37,7 @@
             "3",
             "Compiler error"
         ],
-        "correctAnswer": "2"
-    },
-    {
-        "question": "What is the output of the following code snippet? \n\n int a = 3, b = 5; \n int c = a ^ b; \n cout << c;",
-        "answer_choices": [
-            "0",
-            "2",
-            "3",
-            "8"
-        ],
-        "correctAnswer": "6"
+        "correctAnswer": "b"
     },
     {
         "question": "Which of the following is NOT a fundamental data type in C++?",
@@ -57,7 +47,7 @@
             "float",
             "list"
         ],
-        "correctAnswer": "list"
+        "correctAnswer": "d"
     },
     {
         "question": "What is the output of the following code snippet? \n\n string s1 = \"hello\"; \n string s2 = \"world\"; \n cout << s1 + s2;",
@@ -67,7 +57,7 @@
             "worldhello",
             "Compiler error"
         ],
-        "correctAnswer": "helloworld"
+        "correctAnswer": "a"
     },
     {
         "question": "Which of the following statements is true about function overloading in C++?",
@@ -77,7 +67,7 @@
             "Function overloading requires that the return types of the functions be different.",
             "Function overloading requires that the number of parameters be the same for all functions with the same name."
         ],
-        "correctAnswer": "Function overloading allows a function to have multiple definitions with the same name."
+        "correctAnswer": "b"
     },
     {
         "question": "What is the output of the following code snippet? \n\n int x = 5; \n cout << x / 2;",
@@ -87,7 +77,7 @@
             "2.0",
             "Compiler error"
         ],
-        "correctAnswer": "2"
+        "correctAnswer": "b"
     },
     {
         "question": "What is the output of the following code snippet? \n\n int arr[] = {1, 2, 3, 4}; \n cout << sizeof(arr);",
@@ -97,7 +87,7 @@
             "8",
             "16"
         ],
-        "correctAnswer": "16"
+        "correctAnswer": "d"
     },
     {
         "question": "Which of the following is a correct way to declare and define a member function of a class in C++?",
@@ -107,7 +97,7 @@
             "void MyClass.myFunction() {}",
             "void myFunction(MyClass) {}"
         ],
-        "correctAnswer": "void MyClass::myFunction() {}"
+        "correctAnswer": "a"
     },
     {
         "question": "What is the output of the following code snippet? \n\n int x = 5; \n int y = 2; \n cout << x % y;",
@@ -117,7 +107,7 @@
             "1",
             "0.5"
         ],
-        "correctAnswer": "1"
+        "correctAnswer": "c"
     },
     {
         "question": "Which of the following statements is true about references in C++?",
@@ -127,7 +117,7 @@
             "A reference can be null in C++.",
             "A reference cannot be used to modify the value of an object."
         ],
-        "correctAnswer": "A reference must be initialized when it is declared."
+        "correctAnswer": "b"
     },
     {
         "question": "Which of the following operators is used to access a member of a structure or union in C++?",
@@ -137,7 +127,7 @@
             ".",
             ":"
         ],
-        "correctAnswer": "->"
+        "correctAnswer": "a"
     },
     {
         "question": "What is the output of the following code snippet? \n\n int x = 5; \n int y = 2; \n x += y; \n cout << x;",
@@ -147,7 +137,7 @@
             "7",
             "10"
         ],
-        "correctAnswer": "7"
+        "correctAnswer": "c"
     },
     {
         "question": "Which of the following statements is true about the const keyword in C++?",
@@ -157,7 +147,7 @@
             "The const keyword is used to declare variables that can only be modified by the compiler.",
             "The const keyword is not a part of C++ syntax."
         ],
-        "correctAnswer": "The const keyword is used to declare variables that cannot be modified."
+        "correctAnswer": "a"
     },
     {
         "question": "What is the output of the following code snippet? \n\n int arr[] = {1, 2, 3, 4}; \n cout << arr[3];",
@@ -167,7 +157,7 @@
             "3",
             "4"
         ],
-        "correctAnswer": "4"
+        "correctAnswer": "d"
     },
     {
         "question": "Which of the following is the correct way to declare a pointer to an integer in C++?",
@@ -177,7 +167,7 @@
             "int ptr;",
             "pointer int;"
         ],
-        "correctAnswer": "int *ptr;"
+        "correctAnswer": "a"
     },
     {
         "question": "What is the output of the following code snippet? \n\n int x = 5; \n int y = 2; \n cout << (x > y) ? \"true\" : \"false\";",
@@ -187,7 +177,7 @@
             "Compiler error",
             "Runtime error"
         ],
-        "correctAnswer": "true"
+        "correctAnswer": "a"
     },
     {
         "question": "Which of the following is a correct way to declare a constructor for a class in C++?",
@@ -197,17 +187,7 @@
             "constructor MyClass() {}",
             "MyClass constructor() {}"
         ],
-        "correctAnswer": "MyClass() {}"
-    },
-    {
-        "question": "What is the output of the following code snippet? \n\n int x = 10; \n for (int i = 0; i < x; i++) { \n   if (i == 5) { \n     continue; \n   } \n   cout << i << \" \"; \n}",
-        "answer_choices": [
-            "0 1 2 3 4 6 7 8 9",
-            "0 1 2 3 4 5 6 7 8 9",
-            "1 2 3 4 6 7 8 9",
-            "1 2 3 4 5 6 7 8 9"
-        ],
-        "correctAnswer": "0 1"
+        "correctAnswer": "a"
     },
     {
         "question": "What is the correct way to dynamically allocate memory for a single integer in C++?",
@@ -217,7 +197,7 @@
             "int *ptr = new();",
             "int *ptr = new int[];"
         ],
-        "correctAnswer": "int *ptr = new int;"
+        "correctAnswer": "c"
     },
     {
         "question": "What is the output of the following code snippet? \n\n int x = 5; \n int y = 2; \n cout << (x < y) ? \"true\" : \"false\";",
@@ -227,7 +207,7 @@
             "Compiler error",
             "Runtime error"
         ],
-        "correctAnswer": "false"
+        "correctAnswer": "b"
     },
     {
         "question": "Which of the following is not a valid C++ variable name?",
@@ -237,7 +217,7 @@
             "my-variable",
             "myVariable123"
         ],
-        "correctAnswer": "my-variable"
+        "correctAnswer": "c"
     },
     {
         "question": "What is the output of the following code snippet? \n\n int x = 5; \n int y = 2; \n cout << (x == y) ? \"true\" : \"false\";",
@@ -247,7 +227,7 @@
             "Compiler error",
             "Runtime error"
         ],
-        "correctAnswer": "false"
+        "correctAnswer": "b"
     },
     {
         "question": "What is the output of the following code snippet? \n\n int x = 10; \n while (x > 0) { \n   cout << x << \" \"; \n   x /= 2; \n }",
@@ -257,7 +237,7 @@
             "10 9 8 7 6 5 4 3 2 1",
             "10 6 3 1"
         ],
-        "correctAnswer": "10 5 2 1"
+        "correctAnswer": "a"
     },
     {
         "question": "What is the output of the following code snippet? \n\n int x = 5; \n int y = 2; \n cout << (x >= y) ? \"true\" : \"false\";",
@@ -267,7 +247,7 @@
             "Compiler error",
             "Runtime error"
         ],
-        "correctAnswer": "true"
+        "correctAnswer": "a"
     },
     {
         "question": "What is the correct way to declare a function that takes two integer parameters and returns their sum in C++?",
@@ -277,7 +257,7 @@
             "sum(int x, int y) { return x + y; }",
             "int sum(int x) { return x + 1; }"
         ],
-        "correctAnswer": "int sum(int x, int y) { return x + y; }"
+        "correctAnswer": "a"
     },
     {
         "question": "What is the correct way to define a constant in C++?",
@@ -287,7 +267,7 @@
             "int CONSTANT = 10;",
             "int = const CONSTANT 10;"
         ],
-        "correctAnswer": "const int CONSTANT = 10;"
+        "correctAnswer": "a"
     },
     {
         "question": "What is the output of the following code snippet? \n\n int x = 5; \n int y = 2; \n cout << (x != y) ? \"true\" : \"false\";",
@@ -297,7 +277,7 @@
             "Compiler error",
             "Runtime error"
         ],
-        "correctAnswer": "true"
+        "correctAnswer": "a"
     },
     {
         "question": "Which of the following is an example of a bitwise operator in C++?",
@@ -307,7 +287,7 @@
             "%",
             "&"
         ],
-        "correctAnswer": "&"
+        "correctAnswer": "c"
     },
     {
         "question": "What is the output of the following code snippet? \n\n int arr[] = {1, 2, 3, 4}; \n cout << arr;",
@@ -317,17 +297,17 @@
             "3",
             "Compiler error"
         ],
-        "correctAnswer": "Compiler error"
+        "correctAnswer": "d"
     },
     {
         "question": "What is the output of the following code snippet? \n\n int x = 10; \n for (int i = 0; i < 5; i++) { \n   x -= 2; \n } \n cout << x;",
         "answer_choices": [
             "2",
             "4",
-            "6",
+            "0",
             "8"
         ],
-        "correctAnswer": "0"
+        "correctAnswer": "c"
     },
     {
         "question": "What is the correct way to define a class named \"Rectangle\" with private member variables for width and height in C++?",
@@ -337,7 +317,7 @@
             "class Rectangle { \n private: \n   width; \n   height; \n };",
             "class Rectangle { \n width; \n height; \n };"
         ],
-        "correctAnswer": "class Rectangle { \n private: \n   int width; \n   int height; \n };"
+        "correctAnswer": "a"
     },
     {
         "question": "What is the output of the following code snippet? \n\n int x = 5; \n int y = 2; \n cout << (x > y) ? \"true\" : \"false\";",
@@ -347,7 +327,7 @@
             "Compiler error",
             "Runtime error"
         ],
-        "correctAnswer": "true"
+        "correctAnswer": "a"
     },
     {
         "question": "What is the output of the following code snippet? \n\n int arr[] = {1, 2, 3, 4}; \n int *ptr = &arr[2]; \n cout << *ptr;",
@@ -357,7 +337,7 @@
             "3",
             "4"
         ],
-        "correctAnswer": "3"
+        "correctAnswer": "c"
     },
     {
         "question": "What is the correct way to declare a function named \"sum\" that takes two integers as arguments and returns their sum in C++?",
@@ -367,7 +347,7 @@
             "int sum(int x, int y) { \n   return x + y; \n }",
             "void sum(int x, int y) { \n   cout << x + y; \n }"
         ],
-        "correctAnswer": "int sum(int x, int y) { \n   return x + y; \n }"
+        "correctAnswer": "c"
     },
     {
         "question": "What is the output of the following code snippet? \n\n int x = 5; \n int y = 2; \n cout << (x >= y) ? \"true\" : \"false\";",
@@ -377,7 +357,7 @@
             "Compiler error",
             "Runtime error"
         ],
-        "correctAnswer": "true"
+        "correctAnswer": "a"
     },
     {
         "question": "Which of the following is the correct syntax to declare a pointer variable in C++?",
@@ -387,7 +367,7 @@
             "int *ptr = x;",
             "int ptr = *x;"
         ],
-        "correctAnswer": "int *ptr = &x;"
+        "correctAnswer": "a"
     },
     {
         "question": "What is the output of the following code snippet? \n\n int x = 10; \n int y = 5; \n cout << x / y;",
@@ -397,7 +377,7 @@
             "5",
             "Compiler error"
         ],
-        "correctAnswer": "2"
+        "correctAnswer": "a"
     },
     {
         "question": "What is the output of the following code snippet? \n\n int arr[] = {1, 2, 3, 4}; \n int *ptr = arr; \n cout << *ptr;",
@@ -407,7 +387,7 @@
             "3",
             "4"
         ],
-        "correctAnswer": "1"
+        "correctAnswer": "a"
     },
     {
         "question": "What is the correct way to define a default constructor for a class named \"Person\" with private member variables for name and age in C++?",
@@ -417,7 +397,7 @@
             "Person() { \n   this->name = \"\"; \n   this->age = 0; \n }",
             "Person() { \n   private: \n   this->name = \"\"; \n   this->age = 0; \n }"
         ],
-        "correctAnswer": "Person() { \n   this->name = \"\"; \n   this->age = 0; \n }"
+        "correctAnswer": "c"
     },
     {
         "question": "What is the output of the following code snippet? \n\n int arr[] = {1, 2, 3}; \n int *ptr = &arr[1]; \n cout << *(ptr + 1);",
@@ -427,7 +407,7 @@
             "3",
             "Compiler error"
         ],
-        "correctAnswer": "3"
+        "correctAnswer": "c"
     },
     {
         "question": "What is the correct way to declare a constant integer variable named \"PI\" with the value of 3.14 in C++?",
@@ -437,7 +417,7 @@
             "int const PI = 3.14;",
             "None of the above"
         ],
-        "correctAnswer": "int const PI = 3.14;"
+        "correctAnswer": "c"
     },
     {
         "question": "What is the output of the following code snippet? \n\n int x = 10; \n int y = 5; \n cout << x % y;",
@@ -447,7 +427,7 @@
             "2",
             "Compiler error"
         ],
-        "correctAnswer": "0"
+        "correctAnswer": "a"
     },
     {
         "question": "What is the correct way to declare a multidimensional array named \"matrix\" with 3 rows and 4 columns in C++?",
@@ -457,7 +437,7 @@
             "int matrix[12];",
             "int *matrix = new int[3][4];"
         ],
-        "correctAnswer": "int matrix[3][4];"
+        "correctAnswer": "a"
     },
     {
         "question": "What is the output of the following code snippet? \n\n int x = 5; \n int y = 2; \n cout << (x > y) ? \"true\" : \"false\";",
@@ -467,7 +447,7 @@
             "Compiler error",
             "Runtime error"
         ],
-        "correctAnswer": "true"
+        "correctAnswer": "a"
     },
     {
         "question": "What is the correct way to declare a virtual function named \"print\" that takes no arguments and returns void in C++?",
@@ -477,7 +457,7 @@
             "void print() virtual = 0;",
             "print() virtual void = 0;"
         ],
-        "correctAnswer": "virtual void print() = 0;"
+        "correctAnswer": "b"
     },
     {
         "question": "What is the output of the following code snippet? \n\n int arr[] = {1, 2, 3, 4}; \n int *ptr = &arr[0]; \n cout << *(ptr + 3);",
@@ -487,7 +467,7 @@
             "3",
             "4"
         ],
-        "correctAnswer": "4"
+        "correctAnswer": "d"
     },
     {
         "question": "What is the output of the following code snippet? \n\n int x = 5; \n int y = x++; \n cout << x << \" \" << y;",
@@ -497,7 +477,7 @@
             "Compiler error",
             "Runtime error"
         ],
-        "correctAnswer": "6 5"
+        "correctAnswer": "b"
     },
     {
         "question": "What is the correct way to declare a reference to an integer variable named \"x\" in C++?",
@@ -507,7 +487,7 @@
             "int *x;",
             "None of the above"
         ],
-        "correctAnswer": "int &ref x;"
+        "correctAnswer": "b"
     },
     {
         "question": "What is the output of the following code snippet? \n\n int arr[] = {1, 2, 3}; \n cout << arr[3];",
@@ -517,7 +497,7 @@
             "2",
             "Compiler error"
         ],
-        "correctAnswer": "Compiler error"
+        "correctAnswer": "d"
     },
     {
         "question": "What is the correct way to declare a constant pointer to an integer variable named \"ptr\" in C++?",
@@ -527,7 +507,7 @@
             "const int *const ptr;",
             "None of the above"
         ],
-        "correctAnswer": "int *const ptr;"
+        "correctAnswer": "a"
     },
     {
         "question": "What is the output of the following code snippet? \n\n int arr[] = {1, 2, 3}; \n int *ptr = arr; \n cout << *++ptr;",
@@ -537,7 +517,7 @@
             "3",
             "Compiler error"
         ],
-        "correctAnswer": "2"
+        "correctAnswer": "b"
     },
     {
         "question": "What is the correct way to declare a destructor for a class named \"Person\" with private member variables for name and age in C++?",
@@ -547,7 +527,7 @@
             "~Person() { \n   delete name; \n   delete age; \n }",
             "None of the above"
         ],
-        "correctAnswer": "~Person() { \n   delete name; \n   delete age; \n }"
+        "correctAnswer": "c"
     },
     {
         "question": "What is the output of the following code snippet? \n\n int arr[] = {1, 2, 3}; \n int *ptr = arr + 1; \n cout << *ptr;",
@@ -557,7 +537,7 @@
             "3",
             "Compiler error"
         ],
-        "correctAnswer": "2"
+        "correctAnswer": "b"
     },
     {
         "question": "What is the output of the following code snippet? \n\n int arr[] = {1, 2, 3}; \n int *ptr = &arr[1]; \n cout << *(ptr - 1);",
@@ -567,7 +547,7 @@
             "3",
             "Compiler error"
         ],
-        "correctAnswer": "1"
+        "correctAnswer": "a"
     },
     {
         "question": "What is the correct way to declare a static member variable named \"count\" for a class named \"Person\" in C++?",
@@ -577,7 +557,7 @@
             "int Person::count;",
             "None of the above"
         ],
-        "correctAnswer": "int Person::count;"
+        "correctAnswer": "c"
     },
     {
         "question": "What is the output of the following code snippet? \n\n int arr[] = {1, 2, 3}; \n int *ptr = arr; \n cout << ++*ptr;",
@@ -587,7 +567,7 @@
             "3",
             "Compiler error"
         ],
-        "correctAnswer": "2"
+        "correctAnswer": "b"
     },
     {
         "question": "What is the correct way to define a copy constructor for a class named \"Person\" with private member variables for name and age in C++?",
@@ -597,7 +577,7 @@
             "Person(Person &p) : name(p.name), age(p.age) {}",
             "None of the above"
         ],
-        "correctAnswer": "Person(Person &p) : name(p.name), age(p.age) {}"
+        "correctAnswer": "c"
     },
     {
         "question": "What is the output of the following code snippet? \n\n int x = 10; \n if (x > 5) \n     cout << \"Hello\"; \n else \n     cout << \"World\";",
@@ -607,7 +587,7 @@
             "Compilation error",
             "Runtime error"
         ],
-        "correctAnswer": "Hello"
+        "correctAnswer": "a"
     },
     {
         "question": "What is the correct way to declare a template function named \"swap\" that swaps two variables of any type in C++?",
@@ -617,7 +597,7 @@
             "template<> \n void swap(T &x, T &y) { \n   T temp = x; \n   x = y; \n   y = temp; \n }",
             "None of the above"
         ],
-        "correctAnswer": "template<typename T> \n void swap(T &x, T &y) { \n   T temp = x; \n   x = y; \n   y = temp; \n }"
+        "correctAnswer": "b"
     },
     {
         "question": "What is the output of the following code snippet? \n\n int x = 5, y = 10; \n cout << (x == y) << endl; \n cout << (x != y) << endl; \n cout << (x > y) << endl; \n cout << (x < y) << endl;",
@@ -627,7 +607,7 @@
             "1111",
             "0000"
         ],
-        "correctAnswer": "0101"
+        "correctAnswer": "a"
     },
     {
         "question": "What is the correct way to declare a pure virtual function named \"display\" in an abstract base class named \"Shape\" in C++?",
@@ -637,7 +617,7 @@
             "void Shape::display() = 0;",
             "None of the above"
         ],
-        "correctAnswer": "virtual void Shape::display() = 0;"
+        "correctAnswer": "a"
     },
     {
         "question": "What is the output of the following code snippet? \n\n int x = 5; \n cout << (x << 1);",
@@ -647,7 +627,7 @@
             "20",
             "Compiler error"
         ],
-        "correctAnswer": "10"
+        "correctAnswer": "b"
     },
     {
         "question": "What is the correct way to declare a constant pointer to an integer named \"ptr\" in C++?",
@@ -657,7 +637,7 @@
             "int *const ptr;",
             "None of the above"
         ],
-        "correctAnswer": "const int *ptr;"
+        "correctAnswer": "b"
     },
     {
         "question": "What is the output of the following code snippet? \n\n int x = 5; \n int &y = x; \n y++; \n cout << x;",
@@ -667,7 +647,7 @@
             "6",
             "Compiler error"
         ],
-        "correctAnswer": "6"
+        "correctAnswer": "c"
     },
     {
         "question": "What is the correct way to declare a friend function named \"display\" for a class named \"Person\" in C++?",
@@ -677,7 +657,7 @@
             "friend void Person::display();",
             "None of the above"
         ],
-        "correctAnswer": "friend void display(Person &p);"
+        "correctAnswer": "a"
     },
     {
         "question": "What is the output of the following code snippet? \n\n int arr[] = {1, 2, 3}; \n int *ptr = arr + 1; \n cout << *(++ptr);",
@@ -687,7 +667,7 @@
             "3",
             "Compiler error"
         ],
-        "correctAnswer": "3"
+        "correctAnswer": "c"
     },
     {
         "question": "What is the correct way to declare a function named \"sum\" that takes two integer arguments and returns their sum in C++?",
@@ -697,7 +677,7 @@
             "void sum(int x, int y) { cout << x + y; }",
             "None of the above"
         ],
-        "correctAnswer": "int sum"
+        "correctAnswer": "b"
     },
     {
         "question": "What is the output of the following code snippet? \n\n int x = 5, y = 10; \n int *ptr = &x; \n *ptr += y; \n cout << x;",
@@ -707,7 +687,7 @@
             "15",
             "20"
         ],
-        "correctAnswer": "15"
+        "correctAnswer": "c"
     },
     {
         "question": "What is the correct way to declare a static member variable named \"count\" for a class named \"Shape\" in C++?",
@@ -717,7 +697,7 @@
             "static int count;",
             "None of the above"
         ],
-        "correctAnswer": "static int Shape::count;"
+        "correctAnswer": "b"
     },
     {
         "question": "What is the output of the following code snippet? \n\n int arr[3][3] = {{1,2,3}, {4,5,6}, {7,8,9}}; \n cout << arr[1][2];",
@@ -727,7 +707,7 @@
             "6",
             "8"
         ],
-        "correctAnswer": "6"
+        "correctAnswer": "c"
     },
     {
         "question": "What is the correct way to declare a derived class named \"Circle\" that inherits from a base class named \"Shape\" in C++?",
@@ -737,7 +717,7 @@
             "class Circle : Shape { };",
             "None of the above"
         ],
-        "correctAnswer": "class Circle : public Shape { };"
+        "correctAnswer": "a"
     },
     {
         "question": "What is the output of the following code snippet? \n\n int x = 5; \n int *ptr = &x; \n cout << ptr;",
@@ -747,7 +727,7 @@
             "Compiler error",
             "None of the above"
         ],
-        "correctAnswer": "The memory address of x"
+        "correctAnswer": "b"
     },
     {
         "question": "What is the correct way to declare a default constructor for a class named \"Person\" that sets the name and age to empty strings and zero, respectively, in C++?",
@@ -757,7 +737,7 @@
             "Person() : { name = \"\"; age = 0; }",
             "None of the above"
         ],
-        "correctAnswer": "Person() : name(\"\"), age(0) { }"
+        "correctAnswer": "b"
     },
     {
         "question": "What is the output of the following code snippet? \n\n int x = 5; \n int *ptr = &x; \n cout << ++*ptr;",
@@ -767,7 +747,7 @@
             "6",
             "Compiler error"
         ],
-        "correctAnswer": "6"
+        "correctAnswer": "c"
     },
     {
         "question": "What is the correct way to declare a destructor for a class named \"Person\" in C++?",
@@ -777,7 +757,7 @@
             "~Person() { }",
             "None of the above"
         ],
-        "correctAnswer": "~Person() { }"
+        "correctAnswer": "c"
     },
     {
         "question": "What is the output of the following code snippet? \n\n int x = 5; \n int &ref = x; \n ref++; \n cout << x;",
@@ -787,7 +767,7 @@
             "6",
             "Compiler error"
         ],
-        "correctAnswer": "6"
+        "correctAnswer": "c"
     },
     {
         "question": "What is the correct way to declare a virtual function named \"draw\" for a base class named \"Shape\" in C++?",
@@ -797,7 +777,7 @@
             "virtual void Shape::draw();",
             "None of the above"
         ],
-        "correctAnswer": "virtual void Shape::draw() = 0;"
+        "correctAnswer": "b"
     },
     {
         "question": "What is the output of the following code snippet? \n\n int arr[] = {1, 2, 3, 4, 5}; \n int *ptr = arr + 2; \n cout << *(ptr+1);",
@@ -807,7 +787,7 @@
             "3",
             "4"
         ],
-        "correctAnswer": "4"
+        "correctAnswer": "d"
     },
     {
         "question": "What is the correct way to declare a pure virtual function named \"draw\" for a base class named \"Shape\" in C++?",
@@ -817,7 +797,7 @@
             "virtual void Shape::draw();",
             "None of the above"
         ],
-        "correctAnswer": "virtual void Shape::draw() = 0;"
+        "correctAnswer": "a"
     },
     {
         "question": "What is the output of the following code snippet? \n\n int arr[] = {1, 2, 3, 4, 5}; \n int *ptr = arr; \n cout << *(ptr++);",
@@ -827,7 +807,7 @@
             "3",
             "4"
         ],
-        "correctAnswer": "1"
+        "correctAnswer": "a"
     },
     {
         "question": "What is the correct way to declare a constant member function named \"getName\" that returns the name of a class named \"Person\" in C++?",
@@ -837,7 +817,7 @@
             "string Person::getName() const { return name; }",
             "None of the above"
         ],
-        "correctAnswer": "string Person::getName() const { return name; }"
+        "correctAnswer": "c"
     },
     {
         "question": "What is the output of the following code snippet? \n\n int x = 5, y = 10; \n int *const ptr = &x; \n *ptr = y; \n cout << x;",
@@ -847,7 +827,7 @@
             "Compiler error",
             "None of the above"
         ],
-        "correctAnswer": "10"
+        "correctAnswer": "b"
     },
     {
         "question": "What is the output of the following code snippet? \n\n int x = 10, y = 5; \n cout << (x > y) ? x : y;",
@@ -857,7 +837,7 @@
             "Compiler error",
             "None of the above"
         ],
-        "correctAnswer": "10"
+        "correctAnswer": "a"
     },
     {
         "question": "What is the correct syntax to dynamically allocate memory for an array of 5 integers in C++?",
@@ -867,7 +847,7 @@
             "int arr[5];",
             "None of the above"
         ],
-        "correctAnswer": "int *arr = new int[5];"
+        "correctAnswer": "b"
     },
     {
         "question": "What is the output of the following code snippet? \n\n int x = 10, y = 5; \n int *p = &x; \n x = (*p)++; \n cout << x << \" \" << y;",
@@ -877,7 +857,7 @@
             "10 6",
             "11 6"
         ],
-        "correctAnswer": "11 5"
+        "correctAnswer": "b"
     },
     {
         "question": "What is the correct way to declare an inline function named \"add\" that takes two integers as arguments and returns their sum in C++?",
@@ -887,7 +867,7 @@
             "int add(int x, int y) inline { return x + y; }",
             "None of the above"
         ],
-        "correctAnswer": "inline int add(int x, int y) { return x + y; }"
+        "correctAnswer": "a"
     },
     {
         "question": "What is the output of the following code snippet? \n\n int arr[] = {1, 2, 3, 4, 5}; \n int *ptr = arr + 2; \n ptr++; \n cout << *ptr;",
@@ -897,7 +877,7 @@
             "3",
             "4"
         ],
-        "correctAnswer": "4"
+        "correctAnswer": "d"
     },
     {
         "question": "What is the correct way to declare a default constructor for a class named \"Person\" in C++?",
@@ -907,7 +887,7 @@
             "Person() : name(\"\"), age(0) { }",
             "None of the above"
         ],
-        "correctAnswer": "Person::Person() : name(\"\"), age(0) { }"
+        "correctAnswer": "b"
     },
     {
         "question": "What is the output of the following code snippet? \n\n int x = 5; \n int *p1 = &x; \n int *p2 = p1; \n *p1 = 10; \n cout << *p2;",
@@ -917,7 +897,7 @@
             "Compiler error",
             "None of the above"
         ],
-        "correctAnswer": "10"
+        "correctAnswer": "b"
     },
     {
         "question": "What is the output of the following code snippet? \n\n int x = 5; \n int *p = &x; \n cout << p << endl << *p << endl << &p;",
@@ -927,7 +907,7 @@
             "Memory address of x, memory address of p, value of x",
             "Memory address of p, memory address of x, value of x"
         ],
-        "correctAnswer": "Memory address of x, value of x, memory address of p"
+        "correctAnswer": "a"
     },
     {
         "question": "What is the correct syntax to create a reference variable named \"ref\" that refers to an integer variable named \"x\" in C++?",
@@ -937,7 +917,7 @@
             "int ref = *x;",
             "None of the above"
         ],
-        "correctAnswer": "int &ref = x;"
+        "correctAnswer": "a"
     },
     {
         "question": "What is the output of the following code snippet? \n\n int arr[] = {1, 2, 3, 4, 5}; \n cout << *(arr + 3);",
@@ -947,7 +927,7 @@
             "3",
             "4"
         ],
-        "correctAnswer": "4"
+        "correctAnswer": "d"
     },
     {
         "question": "What is the correct way to define a function named \"max\" that takes two integers as arguments and returns the larger of the two in C++?",
@@ -957,7 +937,7 @@
             "int max(int x, int y) (x > y) ? x : y;",
             "None of the above"
         ],
-        "correctAnswer": "int max(int x, int y) { return (x > y) ? x : y; }"
+        "correctAnswer": "a"
     },
     {
         "question": "What is the output of the following code snippet? \n\n int x = 10; \n int *p1 = &x; \n int **p2 = &p1; \n cout << **p2;",
@@ -967,7 +947,7 @@
             "Memory address of p1",
             "Compiler error"
         ],
-        "correctAnswer": "10"
+        "correctAnswer": "a"
     },
     {
         "question": "What is the correct syntax to create an object of a class named \"Person\" using the default constructor in C++?",
@@ -977,7 +957,7 @@
             "Person p;",
             "None of the above"
         ],
-        "correctAnswer": "Person p;"
+        "correctAnswer": "c"
     },
     {
         "question": "What is the output of the following code snippet? \n\n int x = 5; \n int *p = &x; \n int *q = p; \n *p = 10; \n cout << *q;",
@@ -987,7 +967,7 @@
             "Compiler error",
             "None of the above"
         ],
-        "correctAnswer": "10"
+        "correctAnswer": "b"
     },
     {
         "question": "What is the output of the following code snippet? \n\n int arr[] = {1, 2, 3, 4, 5}; \n int *p = arr; \n cout << *p << endl << *(p + 3) << endl << *(p++) << endl << *p;",
@@ -997,7 +977,7 @@
             "1, 4, 2, 3",
             "1, 4, 1, 3"
         ],
-        "correctAnswer": "1, 4, 1, 2"
+        "correctAnswer": "a"
     },
     {
         "question": "What is the correct syntax to declare a class named \"Rectangle\" with a private integer member variable named \"width\" and a public member function named \"set_width\" that sets the value of the \"width\" variable?",
@@ -1007,7 +987,7 @@
             "class Rectangle { private: int width; public: void set_width(int w) { width = w; } };",
             "None of the above"
         ],
-        "correctAnswer": "class Rectangle { private: int width; public: void set_width(int w) { width = w; } };"
+        "correctAnswer": "c"
     },
     {
         "question": "What is the output of the following code snippet? \n\n int arr[3][3] = { {1, 2, 3}, {4, 5, 6}, {7, 8, 9} }; \n cout << arr[1][2];",
@@ -1017,7 +997,7 @@
             "6",
             "8"
         ],
-        "correctAnswer": "6"
+        "correctAnswer": "c"
     },
     {
         "question": "What is the correct way to define a class named \"Circle\" with a private float member variable named \"radius\", a public member function named \"set_radius\" that sets the value of the \"radius\" variable, and a public member function named \"get_area\" that returns the area of the circle?",
@@ -1027,7 +1007,7 @@
             "class Circle { private: float radius; public: void set_radius(float r) { radius = r; } public: float get_area() { return 3.14 * radius * radius; } };",
             "None of the above"
         ],
-        "correctAnswer": "class Circle { private: float radius; public: void set_radius(float r) { radius = r; } public: float get_area() { return 3.14 * radius * radius; } };"
+        "correctAnswer": "c"
     },
     {
         "question": "What is the output of the following code snippet? \n\n int x = 10; \n int *ptr = &x; \n cout << ptr << endl << *ptr << endl << &x;",
@@ -1037,7 +1017,7 @@
             "Value of x, address of x, address of ptr",
             "Address of ptr, value of ptr, address of x"
         ],
-        "correctAnswer": "Address of x, value of x, address of x"
+        "correctAnswer": "a"
     },
     {
         "question": "What is the correct way to declare a function named \"multiply\" that takes two integer parameters and returns their product?",
@@ -1047,17 +1027,7 @@
             "multiply(x, y) int { return x * y; }",
             "None of the above"
         ],
-        "correctAnswer": "int multiply(int x, int y) { return x * y; }"
-    },
-    {
-        "question": "What is the output of the following code snippet? \n\n string str = \"Hello, World!\"; \n cout << str.length();",
-        "answer_choices": [
-            "5",
-            "7",
-            "12",
-            "None of the above"
-        ],
-        "correctAnswer": "13"
+        "correctAnswer": "b"
     },
     {
         "question": "What is the correct way to declare a class named \"Animal\" with a public member function named \"make_sound\"?",
@@ -1067,7 +1037,7 @@
             "class Animal { public: make_sound(); };",
             "None of the above"
         ],
-        "correctAnswer": "class Animal { public: void make_sound(); };"
+        "correctAnswer": "a"
     },
     {
         "question": "What is the output of the following code snippet? \n\n int arr[] = {1, 2, 3, 4, 5}; \n int *p = &arr[2]; \n cout << *p << endl << p[-1] << endl << *(p + 2);",
@@ -1077,7 +1047,7 @@
             "3, 2, 4",
             "2, 3, 4"
         ],
-        "correctAnswer": "3, 2, 5"
+        "correctAnswer": "a"
     },
     {
         "question": "What is the correct way to define a class named \"Person\" with private member variables named \"name\", \"age\", and \"address\"?",
@@ -1087,7 +1057,7 @@
             "class Person { private: string name, int age, string address; };",
             "class Person { private: string name; private: int age; private: string address; };"
         ],
-        "correctAnswer": "class Person { private: string name; private: int age; private: string address; };"
+        "correctAnswer": "d"
     },
     {
         "question": "What is the output of the following code snippet? \n\n int x = 10; \n int *ptr = &x; \n cout << ptr << endl << *ptr << endl << &x;",
@@ -1097,7 +1067,7 @@
             "Value of x, address of x, address of ptr",
             "Address of ptr, value of ptr, address of x"
         ],
-        "correctAnswer": "Address of x, value of x, address of x"
+        "correctAnswer": "a"
     },
     {
         "question": "What is the correct way to declare a function named \"multiply\" that takes two integer parameters and returns their product?",
@@ -1107,17 +1077,17 @@
             "multiply(x, y) int { return x * y; }",
             "None of the above"
         ],
-        "correctAnswer": "int multiply(int x, int y) { return x * y; }"
+        "correctAnswer": "b"
     },
     {
         "question": "What is the output of the following code snippet? \n\n string str = \"Hello, World!\"; \n cout << str.length();",
         "answer_choices": [
             "5",
             "7",
-            "12",
+            "13",
             "None of the above"
         ],
-        "correctAnswer": "13"
+        "correctAnswer": "c"
     },
     {
         "question": "What is the correct way to declare a class named \"Animal\" with a public member function named \"make_sound\"?",
@@ -1127,7 +1097,7 @@
             "class Animal { public: make_sound(); };",
             "None of the above"
         ],
-        "correctAnswer": "class Animal { public: void make_sound(); };"
+        "correctAnswer": "a"
     },
     {
         "question": "What is the output of the following code snippet? \n\n int arr[] = {1, 2, 3, 4, 5}; \n int *p = &arr[2]; \n cout << *p << endl << p[-1] << endl << *(p + 2);",
@@ -1137,7 +1107,7 @@
             "3, 2, 4",
             "2, 3, 4"
         ],
-        "correctAnswer": "3, 2, 5"
+        "correctAnswer": "a"
     },
     {
         "question": "What is the correct way to define a class named \"Person\" with private member variables named \"name\", \"age\", and \"address\"?",
@@ -1147,7 +1117,7 @@
             "class Person { private: string name, int age, string address; };",
             "class Person { private: string name; private: int age; private: string address; };"
         ],
-        "correctAnswer": "class Person { private: string name; private: int age; private: string address; };"
+        "correctAnswer": "d"
     },
     {
         "question": "What is the output of the following code snippet? \n\n int a = 10; \n int b = 5; \n int c = a > b ? a : b; \n cout << c;",
@@ -1157,7 +1127,7 @@
             "a",
             "b"
         ],
-        "correctAnswer": "10"
+        "correctAnswer": "a"
     },
     {
         "question": "What is the correct way to declare a constant integer named \"MAX\" with a value of 100?",
@@ -1167,7 +1137,7 @@
             "int MAX = 100; const;",
             "None of the above"
         ],
-        "correctAnswer": "const int MAX = 100;"
+        "correctAnswer": "b"
     },
     {
         "question": "What is the output of the following code snippet? \n\n int x = 10; \n int &y = x; \n cout << y;",
@@ -1177,7 +1147,7 @@
             "y",
             "None of the above"
         ],
-        "correctAnswer": "10"
+        "correctAnswer": "a"
     },
     {
         "question": "What is the correct way to declare an array of integers named \"myArray\" with a length of 5?",
@@ -1187,7 +1157,7 @@
             "vector<int> myArray(5);",
             "None of the above"
         ],
-        "correctAnswer": "int myArray[5];"
+        "correctAnswer": "a"
     },
     {
         "question": "What is the output of the following code snippet? \n\n int x = 10; \n int *ptr = &x; \n cout << *ptr << endl << ptr << endl << &x;",
@@ -1197,7 +1167,7 @@
             "value of x, address of x, address of ptr",
             "None of the above"
         ],
-        "correctAnswer": "10, address of x, address of x"
+        "correctAnswer": "a"
     },
     {
         "question": "What is the correct way to declare a class named \"Shape\" with a virtual member function named \"draw\"?",
@@ -1207,7 +1177,7 @@
             "class Shape { void draw() virtual; };",
             "None of the above"
         ],
-        "correctAnswer": "class Shape { public: virtual void draw(); };"
+        "correctAnswer": "a"
     },
     {
         "question": "What is the output of the following code snippet? \n\n int arr[] = {1, 2, 3, 4, 5}; \n cout << *(arr + 2) << endl << arr[2] << endl << 2[arr];",
@@ -1217,7 +1187,7 @@
             "3, 2, 5",
             "None of the above"
         ],
-        "correctAnswer": "3, 3, 4"
+        "correctAnswer": "d"
     },
     {
         "question": "Which of the following is not a valid HTML5 input type?",
